@@ -5,18 +5,13 @@ import requests
 import numpy as np
 from langchain.llms.base import LLM
 from typing import Optional, List
-import requests
-import json
-
+from sentence_transformers import CrossEncoder  # For reranking
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.llms import OpenAI
-from langchain.chains import RetrievalQA
 from langchain.schema import Document
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 # Streamlit UI Title
-st.title("🌾 Paddy Farming AI Assistant (LangChain)")
+st.title("🌾 Paddy Farming AI Assistant (LangChain with Reranking)")
 
 # Paths for FAISS vector store and knowledge base
 faiss_index_path = "paddy_vector_store_bge.index"
@@ -32,12 +27,32 @@ embedding_model = HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5")
 # Load FAISS index
 index = faiss.read_index(faiss_index_path)
 
-# Wrap FAISS with LangChain retriever
-def search_faiss(query, top_k=5):
+# Load reranker model (Cross-Encoder)
+reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+
+# Wrap FAISS with LangChain retriever and reranking
+def search_faiss_rerank(query, top_k=20, rerank_top_k=5):
+    """Fetches top_k results from FAISS, reranks them, and returns the top rerank_top_k results."""
+    
+    # Convert query to embedding
     query_embedding = embedding_model.embed_query(query)
     distances, indices = index.search(np.array([query_embedding]), top_k)
-    results = [Document(page_content=knowledge_base[i]["content"]) for i in indices[0]]
-    return results
+    
+    # Retrieve documents from knowledge base
+    retrieved_docs = [Document(page_content=knowledge_base[i]["content"]) for i in indices[0]]
+    
+    # Prepare input pairs for reranking (query + each document)
+    doc_texts = [doc.page_content for doc in retrieved_docs]
+    pairs = [[query, doc] for doc in doc_texts]
+    
+    # Compute rerank scores
+    scores = reranker.predict(pairs)
+    
+    # Sort documents by rerank scores (higher score = more relevant)
+    sorted_docs = [doc for _, doc in sorted(zip(scores, retrieved_docs), reverse=True)]
+    
+    # Return top rerank_top_k documents
+    return sorted_docs[:rerank_top_k]
 
 # LM Studio API details (Local Model)
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
@@ -45,9 +60,8 @@ LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 class LMStudioLLM(LLM):
     """Custom LangChain LLM wrapper for local LM Studio"""
 
-    # Define required properties
     model_name: str = "falcon3-10b-instruct"  # Change if using a different model
-    max_tokens: int = 300
+    max_tokens: int = 1000
     temperature: float = 0.7
     LM_STUDIO_API_URL: str = "http://localhost:1234/v1/completions"
 
@@ -74,32 +88,48 @@ class LMStudioLLM(LLM):
     def _llm_type(self):
         return "custom_LM_Studio_LLM"
 
-
-# Define the LangChain RetrievalQA Chain
+# Define the LangChain RetrievalQA Chain with Reranking
 def get_langchain_answer(query):
-    retrieved_docs = search_faiss(query)
+    retrieved_docs = search_faiss_rerank(query)
+
+    # Prepare context from reranked documents
+    context = "\n\n".join([doc.page_content for doc in retrieved_docs])
 
     prompt = f"""You are an expert agricultural assistant with deep knowledge in paddy (rice) farming...  
 
 *CONTEXT:*  
-{retrieved_docs}  
+{context}  
 
 *QUESTION:*  
 {query}  
 
 *Instructions:*  
+
 1. Carefully review the provided context.  
-2. Provide a concise, accurate, and detailed answer.  
-3. Format the response properly with a heading and bullet points.
+2. Break down the question into relevant parts if needed.  
+3. Base your answer solely on the context and reliable paddy farming practices.  
+4. Provide a concise, accurate, and detailed answer that addresses the question fully.  
+5. Strictly print every new point in a new line.  
+6. Strictly print only the final answer.  
+7. Even if you are unsure, the user should not know that.  
+8. Don't print the chain of thought on the screen.  
+9. Do not print the same sentence twice.
+10. Do not miss any points.  
+11. Always Start with a heading with a small introduction.
 
 *FINAL ANSWER FORMAT EXAMPLE:*  
 
-**Best Practices for Paddy Farming**  
+Final Answer Example:
+Heading: Use appropriate introduction to the answer
+
 - Use high-quality seeds to ensure better yield.  
 - Maintain a proper water level of 5-7 cm during the vegetative stage.  
-- Apply nitrogen fertilizers in three split doses.  
+- Apply nitrogen fertilizers in three split doses for optimal growth.  
+- Use pest control measures such as neem oil or pheromone traps.  
 
-*FINAL ANSWER:*"""
+
+
+ *FINAL ANSWER:*"""
 
     llm = LMStudioLLM()
     return llm(prompt)

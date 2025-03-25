@@ -7,7 +7,7 @@ output_file = "paddy_knowledge_base.json"
 
 # Initialize text splitter
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=400,
+    chunk_size=300,
     chunk_overlap=125,
     separators=["\n\n", "\n", ".", "?", "!", " ", ""],  # Ensures context retention
 )

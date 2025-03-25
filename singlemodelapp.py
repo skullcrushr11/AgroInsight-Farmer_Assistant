@@ -25,7 +25,7 @@ model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
 # Function to retrieve relevant context from FAISS
-def search_faiss(query, top_k=5):
+def search_faiss(query, top_k=10):
     query_embedding = model.encode([query], convert_to_numpy=True)
     distances, indices = index.search(query_embedding, top_k)
     results = [knowledge_base[i]["content"] for i in indices[0]]
