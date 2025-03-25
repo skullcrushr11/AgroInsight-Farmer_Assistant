@@ -1,0 +1,107 @@
+{
+    "cotton_arboreum": {
+        "Ecology": {
+            "Soil depth": {
+                "Optimal": "deep (>>150 cm)",
+                "Absolute": "medium (50-150 cm)"
+            },
+            "Temperature required": {
+                "Optimal": {
+                    "min": "26",
+                    "max": "36"
+                },
+                "Ablsolute": {
+                    "min": "18",
+                    "max": "38"
+                }
+            },
+            "Soil texture": {
+                "Optimal": "heavy, medium, light",
+                "Absolute": "heavy, medium, light"
+            },
+            "Rainfall annual": {
+                "Optimal": {
+                    "min": "750",
+                    "max": "1250"
+                },
+                "Ablsolute": {
+                    "min": "500",
+                    "max": "1500"
+                }
+            },
+            "Soil fertility": {
+                "Optimal": "moderate",
+                "Absolute": "moderate"
+            },
+            "Latitude": {
+                "Optimal": {
+                    "min": "10",
+                    "max": "10"
+                },
+                "Ablsolute": {
+                    "min": "30",
+                    "max": "30"
+                }
+            },
+            "Soil Al toxicity": {
+                "Optimal": "",
+                "Absolute": ""
+            },
+            "Altitude": {
+                "Optimal": {
+                    "min": "---",
+                    "max": "---"
+                },
+                "Ablsolute": {
+                    "min": "-",
+                    "max": "1600"
+                }
+            },
+            "Soil salinity": {
+                "Optimal": "low (<4 dS/m)",
+                "Absolute": "medium (4-10 dS/m)"
+            },
+            "Soil PH": {
+                "Optimal": {
+                    "min": "6",
+                    "max": "7.2"
+                },
+                "Ablsolute": {
+                    "min": "5.3",
+                    "max": "8.5"
+                }
+            },
+            "Soil drainage": {
+                "Optimal": "well (dry spells)",
+                "Absolute": "well (dry spells)"
+            },
+            "Light intensity": {
+                "Optimal": {
+                    "min": "very bright",
+                    "max": "very bright"
+                },
+                "Ablsolute": {
+                    "min": "very bright",
+                    "max": "clear skies"
+                }
+            },
+            "Climate zone": "tropical wet & dry (Aw), tropical wet (Ar), steppe or semiarid (Bs), subtropical humid (Cf), subtropical dry summer (Cs), subtropical dry winter (Cw)",
+            "Photoperiod": "short day (<12 hours), neutral day (12-14 hours)",
+            "Killing temperature during Rest": "-",
+            "Killing temperature during early growth": "-",
+            "Introduction risks": ""
+        },
+        "Cultivation": {
+            "Production system": "",
+            "Crop cycle": {
+                "min": "190",
+                "max": "210"
+            }
+        },
+        "Cropping system": "",
+        "Subsystem": "",
+        "Companion species": "",
+        "Level of mechanization": "",
+        "Labour intensity": ""
+    }
+}
