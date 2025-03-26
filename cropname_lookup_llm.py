@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from pprint import pprint
 from huggingface_hub import login
-login(token = "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")
+login(token = "HuggingFACE_API_KEY")
 
 model_name = "BAAI/bge-large-en-v1.5"
 model_kwargs = {"device": "cpu"}
