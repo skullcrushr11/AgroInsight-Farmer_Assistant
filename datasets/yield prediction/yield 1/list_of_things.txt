@@ -1,0 +1,2 @@
+soil_type:['Sandy' 'Clay' 'Loam' 'Silt' 'Peaty' 'Chalky']
+Crop:['Cotton' 'Rice' 'Barley' 'Soybean' 'Wheat' 'Maize']

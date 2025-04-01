@@ -1,0 +1,11 @@
+crop:['rice' 'wheat' 'Mung Bean' 'Tea' 'millet' 'maize' 'Lentil' 'Jute'     
+ 'Coffee' 'Cotton' 'Ground Nut' 'Peas' 'Rubber' 'Sugarcane' 'Tobacco'  
+ 'Kidney Beans' 'Moth Beans' 'Coconut' 'Black gram' 'Adzuki Beans'     
+ 'Pigeon Peas' 'Chickpea' 'banana' 'grapes' 'apple' 'mango' 'muskmelon'
+ 'orange' 'papaya' 'pomegranate' 'watermelon']
+
+ fertilizer:['Compost' 'Balanced NPK Fertilizer' 'Water Retaining Fertilizer'     
+ 'Organic Fertilizer' 'Gypsum' 'Lime' 'DAP' 'Urea' 'Muriate of Potash'
+ 'General Purpose Fertilizer']
+
+ soil:['Loamy Soil' 'Peaty Soil' 'Acidic Soil' 'Neutral Soil' 'Alkaline Soil']

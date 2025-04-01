@@ -1,0 +1,11 @@
+fertilizer:['Urea' 'DAP' 'MOP' '10:26:26 NPK' 'SSP' 'Magnesium Sulphate'
+ '13:32:26 NPK' '12:32:16 NPK' '50:26:26 NPK' '19:19:19 NPK'
+ 'Chilated Micronutrient' '18:46:00 NPK' 'Sulphur' '20:20:20 NPK'
+ 'Ammonium Sulphate' 'Ferrous Sulphate' 'White Potash' '10:10:10 NPK'
+ 'Hydrated Lime']
+
+ crops:['Sugarcane' 'Jowar' 'Cotton' 'Rice' 'Wheat' 'Groundnut' 'Maize' 'Tur'
+ 'Urad' 'Moong' 'Gram' 'Masoor' 'Soybean' 'Ginger' 'Turmeric' 'Grapes']
+
+ soil_color:['Black' 'Red ' 'Medium Brown' 'Dark Brown' 'Red' 'Light Brown'
+ 'Reddish Brown']
