@@ -1,0 +1,103 @@
+1. Background
+India cultivates rice on 43.86 million hectares, producing 104.80 million tonnes with a productivity of 2390 kg/ha (Agricultural Statistics at a Glance, 2015).
+Productivity is lower than other major rice-growing countries like China (6710 kg/ha), Vietnam (5573 kg/ha), Indonesia (5152 kg/ha), and Bangladesh (4375 kg/ha).
+Challenges: Majority of cultivated land belongs to marginal, small, and medium farmers.
+Opportunities: Improved technologies, hybrid rice cultivation, and various interventions can increase productivity.
+2. Rice Growing Regions in India
+Rice-growing areas in India are categorized into five major regions:
+
+i. North-Eastern Region
+Includes Assam and North-Eastern states.
+Rice is grown in the Brahmaputra River basin under rainfed conditions due to heavy rainfall.
+ii. Eastern Region
+Includes Bihar, Chhattisgarh, Jharkhand, Madhya Pradesh, Odisha, Eastern Uttar Pradesh, and West Bengal.
+High rice cultivation intensity in Ganga and Mahanadi river basins, mostly under rainfed conditions.
+iii. Northern Region
+Includes Haryana, Punjab, Western Uttar Pradesh, Uttarakhand, Himachal Pradesh, and Jammu & Kashmir.
+Single crop of rice grown between May-July and September-December due to low winter temperatures.
+iv. Western Region
+Includes Gujarat, Maharashtra, and Rajasthan.
+Rice is mainly grown under rainfed conditions from June-August to October-December.
+v. Southern Region
+Includes Andhra Pradesh, Karnataka, Kerala, and Tamil Nadu.
+Rice is cultivated in deltaic tracts of Godavari, Krishna, and Cauvery rivers under irrigated conditions.
+3. Main Rice-Producing Countries
+The top five rice-producing countries in terms of area, production, and productivity:
+
+Country	Area (Million ha)	Production (Million tonnes)	Productivity (kg/ha)	Production Share (%)
+China	30.58	205.21	6710	27.70
+India	43.86	104.80	2390	21.81
+Indonesia	13.84	71.29	5152	9.62
+Bangladesh	11.78	51.50	4376	6.95
+Vietnam	7.90	44.04	5573	5.94
+(Source: Agricultural Statistics at a Glance, 2015)
+
+4. Status of Rice in India
+Rice feeds 60% of India's population.
+Area under cultivation increased from 30.81 million ha in 1950-51 to 43.86 million ha in 2014-15 (142% increase).
+Production increased from 20.58 million tonnes in 1950-51 to 104.86 million tonnes in 2014-15 (5x increase).
+Yield improved from 668 kg/ha in 1950-51 to 2390 kg/ha in 2014-15.
+Major producing states: West Bengal (15% of total production), Uttar Pradesh, Andhra Pradesh, Punjab, and Tamil Nadu.
+5. Agronomic Practices
+i. Land Preparation
+Ploughing followed by harrowing.
+Puddling done with paddy puddler or rotavator.
+Green manure crops (dhaincha/mung) may be incorporated.
+ii. Seed Rate
+Broadcasting: 80 kg/ha
+Transplanting: 20-30 kg/ha
+SRI (System of Rice Intensification): 5-8 kg/ha
+iii. Seed Treatment
+Carbendazim (Bavistin) 10g + Streptocycline 1g per 10 liters of water.
+Seeds soaked for 24 hours before sowing/transplanting.
+iv. Sowing Methods
+Direct Seeding (Broadcasting): Seeds sown in unpuddled/puddled fields.
+Transplanting:
+Manual: 1/20th of transplanting area as nursery.
+Mechanical: Mat/tray nursery.
+SRI Method: 10-day-old seedlings planted at 25 cm x 25 cm spacing.
+v. Sowing Time
+Rice is grown in all three seasons (Kharif, Rabi, Summer) depending on regional climate.
+vi. Fertilizer Management
+Nitrogen: 80-100 kg/ha (split into 3 doses).
+Phosphorus (P₂O₅): 40-45 kg/ha.
+Potassium (K₂O): 30-40 kg/ha.
+Bio-fertilizers (Azolla, Blue-Green Algae) can supplement nitrogen.
+vii. Water Management
+Proper leveling & drainage for efficient nitrogen uptake and weed control.
+6. Plant Protection
+i. Weed Management
+Manual weeding (2-3 times) or herbicides like Anilophos, Butachlor, Pyrazosulfuron-ethyl, Almix.
+ii. Disease Management
+Disease	Control Measures
+Khiara	5kg zinc + 2.5kg lime per ha, 10 days after transplanting
+Blast	Thiram (2.5g/kg seed) or Tricyclazole (1.5g/kg seed)
+Brown Spot	Carbendazim (2g/kg seed) or Mancozeb (2.5g/kg seed)
+Bacterial Leaf Blight	Streptocycline (1g) + Carbendazim (20g) per 10 liters of water
+iii. Insect Management
+Insect	Control Measures
+Gundhi Bug	Spray Carbaryl 50WP (1500 g/ha)
+Stem Borer	Spray Cartap 50WP (800 g/ha) or Chlorpyriphos 20EC (2000 ml/ha)
+Brown Plant Hopper	Spray Imidacloprid 200SL (125 ml/ha)
+iv. Harvesting & Threshing
+Harvest when grains turn yellow (moisture < 25%).
+Manual or mechanical threshing (combine harvester/thresher).
+7. Export & Import of Rice
+i. Basmati Rice
+Export increased from 23.71 lakh tonnes in 2010-11 to 40.45 lakh tonnes in 2015-16.
+Negligible imports (0.0046 lakh tonnes in 2010-11).
+ii. Non-Basmati Rice
+Fluctuating exports due to government policies.
+Increased from 1.01 lakh tonnes in 2010-11 to 82.25 lakh tonnes in 2014-15.
+8. Minimum Support Price (MSP)
+Year	MSP (Common)	MSP (Grade A)
+2012-13	1250	1280
+2016-17	1470	1510
+9. Government Programs
+i. National Food Security Mission (NFSM)
+Implemented in 25 states (199 districts).
+Interventions: Hybrid seed distribution, mechanization, INM/IPM, farmer training.
+ii. Bringing Green Revolution to Eastern India (BGREI)
+Focus on 7 eastern states to enhance productivity.
+Funds allocated: ₹1000 crore (2012-13) to ₹630 crore (2016-17).
+This structured format ensures BERT embeddings capture key knowledge effectively. Let me know if you need modifications! 🚀
