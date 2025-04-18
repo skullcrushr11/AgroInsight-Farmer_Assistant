@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from pprint import pprint
 from huggingface_hub import login
-login(token = "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")
+login(token = "")
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 #This code is for loading crop descriptions, text files, json files
