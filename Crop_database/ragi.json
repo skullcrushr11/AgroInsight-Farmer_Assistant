@@ -1,0 +1,107 @@
+{
+    "ragi": {
+        "Ecology": {
+            "Soil depth": {
+                "Optimal": "medium (50-150 cm)",
+                "Absolute": "shallow (20-50 cm)"
+            },
+            "Temperature required": {
+                "Optimal": {
+                    "min": "18",
+                    "max": "30"
+                },
+                "Ablsolute": {
+                    "min": "8",
+                    "max": "35"
+                }
+            },
+            "Soil texture": {
+                "Optimal": "medium",
+                "Absolute": "heavy, medium, light"
+            },
+            "Rainfall annual": {
+                "Optimal": {
+                    "min": "500",
+                    "max": "1100"
+                },
+                "Ablsolute": {
+                    "min": "300",
+                    "max": "4300"
+                }
+            },
+            "Soil fertility": {
+                "Optimal": "moderate",
+                "Absolute": "low"
+            },
+            "Latitude": {
+                "Optimal": {
+                    "min": "-",
+                    "max": "-"
+                },
+                "Ablsolute": {
+                    "min": "20",
+                    "max": "35"
+                }
+            },
+            "Soil Al toxicity": {
+                "Optimal": "",
+                "Absolute": ""
+            },
+            "Altitude": {
+                "Optimal": {
+                    "min": "---",
+                    "max": "---"
+                },
+                "Ablsolute": {
+                    "min": "-",
+                    "max": "2500"
+                }
+            },
+            "Soil salinity": {
+                "Optimal": "low (<4 dS/m)",
+                "Absolute": "medium (4-10 dS/m)"
+            },
+            "Soil PH": {
+                "Optimal": {
+                    "min": "6",
+                    "max": "7"
+                },
+                "Ablsolute": {
+                    "min": "5.5",
+                    "max": "8.2"
+                }
+            },
+            "Soil drainage": {
+                "Optimal": "well (dry spells)",
+                "Absolute": "well (dry spells), excessive (dry/moderately dry)"
+            },
+            "Light intensity": {
+                "Optimal": {
+                    "min": "very bright",
+                    "max": "very bright"
+                },
+                "Ablsolute": {
+                    "min": "very bright",
+                    "max": "clear skies"
+                }
+            },
+            "Climate zone": "tropical wet & dry (Aw), desert or arid (Bw), steppe or semiarid (Bs), subtropical humid (Cf), subtropical dry summer (Cs), subtropical dry winter (Cw)",
+            "Photoperiod": "short day (<12 hours), neutral day (12-14 hours)",
+            "Killing temperature during Rest": "-",
+            "Killing temperature during early growth": "-",
+            "Introduction risks": ""
+        },
+        "Cultivation": {
+            "Production system": "",
+            "Crop cycle": {
+                "min": "75",
+                "max": "180"
+            }
+        },
+        "Cropping system": "",
+        "Subsystem": "",
+        "Companion species": "",
+        "Level of mechanization": "",
+        "Labour intensity": ""
+    }
+}

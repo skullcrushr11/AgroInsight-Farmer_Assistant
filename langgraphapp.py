@@ -5,6 +5,7 @@ import joblib
 import json
 import requests
 import faiss
+from langchain_community.vectorstores import FAISS
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from langgraph.graph import StateGraph, END
@@ -327,23 +328,21 @@ def load_models():
  label_encoder_fert_2, remark_model_2, disease_model) = load_models()
 
 # --- Load FAISS Vector Store and Knowledge Base ---
-faiss_index_path = "paddy_vector_store_bge.index"
-knowledge_base_path = "paddy_knowledge_base.json"
+faiss_index_path = "vector_stores/unified_faiss_index"
 
 @st.cache_resource
 def load_vector_store():
     try:
-        index = faiss.read_index(faiss_index_path)
-        with open(knowledge_base_path, "r", encoding="utf-8") as f:
-            knowledge_base = json.load(f)
         model = SentenceTransformer("BAAI/bge-large-en-v1.5")
+        index = FAISS.load_local(faiss_index_path, model, "unified_faiss_index", allow_dangerous_deserialization=True)
         logger.info("Vector store loaded successfully")
-        return index, knowledge_base, model
+        return index, model
     except Exception as e:
         logger.error(f"Error loading vector store: {e}")
         raise
 
-faiss_index, knowledge_base, embedding_model = load_vector_store()
+
+faiss_index, embedding_model = load_vector_store()
 
 # --- LM Studio API Details ---
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
@@ -389,11 +388,13 @@ def create_state():
     }
 
 # --- Helper Functions ---
-def search_faiss(query, top_k=10):
+def search_faiss(query, metadata,top_k=10):
     try:
-        query_embedding = embedding_model.encode([query], convert_to_numpy=True)
-        distances, indices = faiss_index.search(query_embedding, top_k)
-        results = [knowledge_base[i]["content"] for i in indices[0]]
+        results = faiss_index.similarity_search(
+    query,
+    k=10,
+    filter={"crop": metadata}
+    )
         return results
     except Exception as e:
         logger.error(f"Error in search_faiss: {e}")
@@ -438,10 +439,41 @@ def process_image(image):
     return img
 
 def process_general_question(query: str) -> str:
-    retrieved_context = search_faiss(query)
+    prompt= f"""You are given a list of crop names and a query, and your task is to return a space-separated collection of crop names relevant to the query. 
+
+*Crop List:*  
+["wheat", "toordal", "rice", "ragi", "jowar", "groundnut", "cotton_hirustum", "cotton_arboreum", "corn", "coffee_arabica", "brinjal", "bengalgram", "bajra"]
+
+*QUERY:*  
+{query}
+
+*Instructions:*
+
+1. Review the provided Crop List and the Query carefully.  
+2. Break down the Query into relevant parts if needed.  
+3. If any crops from the list are relevant to the query, return them as a space-separated collection.
+4. Crop names from the list are definitely relevant if they are present in the query.  
+5. If no crops are directly relevant or if the query is general, return **all the crops** in the list, separated by a single space.  
+6. Strictly follow this format: Return crop names with only a single space between them, no commas, no extra spaces at the beginning or end.  
+7. Do not repeat any crop name in the list.  
+8. If you're unsure of which crops are relevant, return all crops in the list, separated by a single space.  
+9. Do not include anything other than the final space-separated answer.  
+10. Do not provide any explanation, reasoning, or extra content.  
+11. Do not provide any extra crop names if there are particular relevant crops to the query.
+
+*FINAL ANSWER FORMAT EXAMPLE:*  
+
+Final Answer Example:  
+wheat jowar brinjal
+"""
+    english_response = query_llm(prompt, model=LARGE_MODEL, is_formatting=True)
+    context=""
+    for crop in english_response.split():
+        context+=f"Context for {crop}:{search_faiss(query,metadata=crop)}\n"
+
     prompt = f"""You are an expert agricultural assistant with deep knowledge in farming...
 CONTEXT:  
-{retrieved_context}  
+{context}  
 QUESTION:  
 {query}  
 Instructions:  
@@ -598,23 +630,12 @@ def crop_recommendation_node(state: Dict[str, Any]) -> Dict[str, Any]:
         crop = label_encoder_crop.inverse_transform(pred)[0]
         state["prediction"] = crop
         
-        # Get English response
-        english_response = query_llm(f"""Format this prediction into a conversational response:
+        # Get response without translation
+        response = query_llm(f"""Format this prediction into a conversational response:
         The recommended crop based on the provided conditions is {crop}.
         Instructions:
         - Keep it friendly and concise.
         - Add a brief explanation or encouragement.""", model=SMALL_MODEL, is_formatting=True)
-        
-        # Get translation in selected language
-        if st.session_state.selected_language != "en":
-            try:
-                translated_response = asyncio.run(translate_response_back(english_response, st.session_state.selected_language))
-                response = f"{translated_response}\n\n*Original English response:*\n{english_response}"
-            except Exception as e:
-                logger.error(f"Translation error: {e}")
-                response = english_response
-        else:
-            response = english_response
             
         state["messages"].append({"role": "assistant", "content": response})
         state["task"] = None
@@ -624,12 +645,6 @@ def crop_recommendation_node(state: Dict[str, Any]) -> Dict[str, Any]:
         logger.debug(f"Crop predicted: {crop}")
     except Exception as e:
         error_msg = f"Error predicting crop: {str(e)}"
-        if st.session_state.selected_language != "en":
-            try:
-                translated_error = asyncio.run(translate_response_back(error_msg, st.session_state.selected_language))
-                error_msg = f"{translated_error}\n\n*Original English error:*\n{error_msg}"
-            except Exception as trans_e:
-                logger.error(f"Translation error: {trans_e}")
         state["messages"].append({"role": "assistant", "content": error_msg})
         state["task"] = None
         state["user_input"] = None
@@ -931,13 +946,13 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
             # Define keys in exact order as in dataset
             keys = ["Soil_color", "Nitrogen", "Phosphorus", "Potassium", "pH", "Temperature", "Crop"]
             key_aliases = {
-                "Soil_color": "Soil_color", "soil": "Soil_color", "color": "Soil_color",
-                "Nitrogen": "Nitrogen", "nitrogen": "Nitrogen", "n": "Nitrogen",
-                "Phosphorus": "Phosphorus", "phosphorus": "Phosphorus", "phosphorous": "Phosphorus", "p": "Phosphorus",
-                "Potassium": "Potassium", "potassium": "Potassium", "k": "Potassium",
-                "pH": "pH", "ph": "pH",
-                "Temperature": "Temperature", "temperature": "Temperature", "temp": "Temperature",
-                "Crop": "Crop", "crop": "Crop"
+                "soil_color": "Soil_color", "soil": "Soil_color", "color": "Soil_color",
+                "nitrogen": "Nitrogen", "n": "Nitrogen",
+                "phosphorus": "Phosphorus", "phosphorous": "Phosphorus", "p": "Phosphorus",
+                "potassium": "Potassium", "k": "Potassium",
+                "ph": "pH", "pH": "pH",
+                "temperature": "Temperature", "temp": "Temperature",
+                "crop": "Crop"
             }
             
             # Use weather data if available
@@ -1044,6 +1059,14 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
                 ordered_dict[key] = input_dict[key]
         return ordered_dict
     
+    # For fertilizer classification option 1, ensure the order matches the dataset
+    if task == "fertilizer_classification" and fertilizer_choice == "1":
+        ordered_dict = {}
+        for key in keys:
+            if key in input_dict:
+                ordered_dict[key] = input_dict[key]
+        return ordered_dict
+
     # For fertilizer classification option 2, ensure the order matches the dataset
     if task == "fertilizer_classification" and fertilizer_choice == "2":
         ordered_dict = {}
@@ -1235,13 +1258,15 @@ if st.session_state.chat_state["task"] == "image_plant_disease_detection":
 elif prompt:
     original_input = prompt
 
+    # Modify the process_prompt function to hide translations for crop recommendation inputs
     async def process_prompt(prompt):
         # Step 1: Detect language and translate to English
         translated_prompt, user_lang = await detect_and_translate_to_english(prompt)
 
         with st.chat_message("user"):
             st.write(original_input)
-            if user_lang != "en":
+            # Only show translation for non-input messages and non-English languages
+            if user_lang != "en" and not any(x in translated_prompt.lower() for x in ["n=", "p=", "k=", "ph="]):
                 st.markdown("*Translated to English:* " + translated_prompt)
 
         # Step 2: Prepare current state
