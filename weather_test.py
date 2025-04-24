@@ -133,7 +133,7 @@ def get_date_ranges():
     
     # Present year, last 4 months (e.g., Apr 2025 -> Dec 2024, Jan, Feb, Mar 2025)
     start_month_current = now.replace(day=1) - timedelta(days=120)
-    end_month_current = now  # Limit to today to avoid future data
+    end_month_current = now - timedelta(days=1) # Limit to today to avoid future data
     current_4_start = start_month_current.strftime("%Y-%m-%d")
     current_4_end = end_month_current.strftime("%Y-%m-%d")
     

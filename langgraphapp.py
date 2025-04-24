@@ -417,7 +417,7 @@ def query_llm(prompt, model=SMALL_MODEL, is_formatting=False):
         if is_formatting:
             logger.debug(f"LLM ({model}) response (formatting): {text[:100]}...")
             return text
-        valid_states = ["Crop Recommendation", "Yield Prediction", "General Paddy Farming Question",
+        valid_states = ["Crop Recommendation", "Yield Prediction", "General Farming Question",
                        "Fertilizer Classification", "Image Plant Disease Detection", "Unclear"]
         for state in valid_states:
             if state in text:
@@ -561,16 +561,16 @@ def intent_classifier_node(state: Dict[str, Any]) -> Dict[str, Any]:
     logger.debug(f"User message for intent classification: {user_message}")
 
     intent_prompt = f"""Classify the user's intent into one of these categories based on their message:
-    - Crop Recommendation
+    - General Farming Question
     - Yield Prediction
-    - General Paddy Farming Question
+    - Crop Recommendation
     - Fertilizer Classification
     - Image Plant Disease Detection
     - Unclear
 
     User Message: "{user_message}"
 
-    Return only the category name.
+    Return only the category name. Make sure you classify the general questions under General Farming Question (General Farming Question can include bajra, rice, bengalgram, cofee, brinjal, corn, cotton, groundnut, jowar, ragi, torrdal, wheat etc).
     """
     intent = query_llm(intent_prompt, model=SMALL_MODEL)
     logger.debug(f"Detected intent: {intent}")
@@ -1098,7 +1098,7 @@ workflow.add_conditional_edges(
     ),
     {
         "input": "input",
-        "general_paddy_farming_question": "general_qa",
+        "general_farming_question": "general_qa",
         "crop_recommendation": "crop_recommendation",
         "fertilizer_classification": "fertilizer_classification",
         "image_plant_disease_detection": "image_disease_detection",
@@ -1115,7 +1115,7 @@ workflow.add_conditional_edges(
         "input"  # Stay in input if still awaiting
     ),
     {
-        "general_paddy_farming_question": "general_qa",
+        "general_farming_question": "general_qa",
         "crop_recommendation": "crop_recommendation",
         "fertilizer_classification": "fertilizer_classification",
         "image_plant_disease_detection": "image_disease_detection",
@@ -1266,7 +1266,7 @@ elif prompt:
         with st.chat_message("user"):
             st.write(original_input)
             # Only show translation for non-input messages and non-English languages
-            if user_lang != "en" and not any(x in translated_prompt.lower() for x in ["n=", "p=", "k=", "ph="]):
+            if user_lang != "en" and not any(x in translated_prompt.lower() for x in ["n=", "p=", "k=", "ph=", "temperature=", "humidity=", "rainfall="]):
                 st.markdown("*Translated to English:* " + translated_prompt)
 
         # Step 2: Prepare current state
@@ -1283,19 +1283,24 @@ elif prompt:
                     if msg["role"] == "assistant":
                         assistant_reply = msg["content"]
 
-                        if user_lang != "en":
-                            try:
-                                translated_reply = await translate_response_back(assistant_reply, user_lang)
-                                with st.chat_message("assistant"):
-                                    st.write(translated_reply)
-                                    st.markdown("*Original English response:* " + assistant_reply)
-                            except Exception as e:
-                                logger.error(f"Translation error: {e}")
-                                with st.chat_message("assistant"):
-                                    st.write(assistant_reply)
-                        else:
+                        # Skip translation for crop recommendation responses
+                        if current_state["task"] == "crop_recommendation":
                             with st.chat_message("assistant"):
                                 st.write(assistant_reply)
+                        else:
+                            if user_lang != "en":
+                                try:
+                                    translated_reply = await translate_response_back(assistant_reply, user_lang)
+                                    with st.chat_message("assistant"):
+                                        st.write(translated_reply)
+                                        st.markdown("*Original English response:* " + assistant_reply)
+                                except Exception as e:
+                                    logger.error(f"Translation error: {e}")
+                                    with st.chat_message("assistant"):
+                                        st.write(assistant_reply)
+                            else:
+                                with st.chat_message("assistant"):
+                                    st.write(assistant_reply)
 
             except Exception as e:
                 logger.error(f"Workflow invocation error: {e}")

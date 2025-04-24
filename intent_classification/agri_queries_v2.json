@@ -1,0 +1,2402 @@
+[
+  {
+    "query": "What is the average yield of rice in Tamil Nadu using NPK fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Fertilizer recommendation for corn in sandy soil during cold season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to spot viral infection in maize?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Yield forecast for cofee this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Population half seven.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best spacing for planting maize?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the average cotton yield in sandy soil with proper irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to spot viral infection in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Can you detect the disease from this image of my maize?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Recommend a fertilizer for ragi during dry season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to proceed?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best crop for rainy conditions?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Is this good?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best seed variety for bajra in Odisha?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is this okay?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How much wheat can I harvest from 1 hectare with proper fertilizer and dry weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is best for laterite soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the expected yield of cofee per acre if I use drip irrigation and clay soil?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Any suggestions?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to improve rice yield in loamy soil using organic manure?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to store harvested rice?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is this good?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop grows well in Maharashtra with sandy soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to treat leaf curl in bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Best fertilizer for jowar in Odisha with sandy soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Which crop gives high yield in Uttar Pradesh?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best seed variety for cofee in Uttar Pradesh?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What are common diseases in groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best organic fertilizer for torrdal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to apply fertilizer for cofee in West Bengal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best time to fertilize brinjal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What are these holes in my torrdal leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the average cost of cultivating cofee?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Why are cotton leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to choose fertilizer for cotton in Maharashtra?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Third with enjoy.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best seed variety for maize in Odisha?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Back however major finally hot.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How do I prepare my field for growing wheat?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Difference development decision.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Yourself?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Chance success effort after blue alone today.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best NPK ratio for bajra?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the average cost of cultivating bengalgram?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the reason for stunted growth in corn?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Can I use DAP for groundnut in Odisha?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the ideal planting time for bajra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What nutrients are needed for ragi in clay soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest a crop for Tamil Nadu during moderate season.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the recommended fertilizer dose for bajra?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Two agent seat interesting.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop is good for crop rotation in clay soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Recommend a fertilizer for torrdal during hot season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Which crop matures quickly in monsoon weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Fertilizer recommendation for torrdal in laterite soil during cold season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to avoid over-fertilizing cofee?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the average yield of cotton in Uttar Pradesh using NPK fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is best for sandy soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to avoid over-fertilizing wheat?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What can I grow in my field with clay soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the ideal planting time for bengalgram?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best crop for mixed farming in Punjab?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop gives high yield in Uttar Pradesh?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to boost rice yield in Tamil Nadu using NPK?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Why are cofee leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to diagnose disease in jowar?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to estimate bajra yield in black soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is best for saline soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Explain this.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Best fertilizer for wheat in Maharashtra with sandy soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Why is this happening?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which fertilizer should I use for torrdal in alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Is urea suitable for rice in peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much bengalgram can I harvest from 1 hectare with proper fertilizer and hot weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What are these holes in my wheat leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the typical bengalgram yield in rainy season with compost?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much ragi can I harvest from 1 hectare with proper fertilizer and moderate weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Tell me more.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the recommended fertilizer dose for brinjal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much corn can I get from 2 acres with recommended fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What can I cultivate in Gujarat during humid season?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop gives high yield in Bihar?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How much bengalgram can I harvest from 1 hectare with proper fertilizer and windy weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What can I grow in laterite soil in Punjab?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Best fertilizer for torrdal in Bihar with peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the yield per acre for cotton in alluvial soil with drip irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the best spacing for planting cofee?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Recommend a fertilizer for cofee during moderate season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What crop should I plant in West Bengal this year?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the typical groundnut yield in moderate season with compost?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Suggest a crop for Uttar Pradesh during frosty season.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What next?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to protect brinjal from pests?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Best fertilizer for maize in Uttar Pradesh with laterite soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to check for root rot in rice?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How much wheat can I expect in drought season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to estimate wheat yield in saline soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is suitable for sandy soil and drought weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How much maize can I produce in Uttar Pradesh with good irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Its?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Investment.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What should I expect?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Hotel!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Follow.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Suggest a crop for Uttar Pradesh during hot season.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Such area.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best spacing for planting brinjal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to manage waterlogging in cotton fields?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Tell me more.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best organic fertilizer for torrdal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Always expect company option maybe.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Why are my ragi plants dying suddenly?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Why are torrdal leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What crop should I plant in Bihar this year?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to use organic manure for groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much cofee can I harvest from 1 hectare with proper fertilizer and rainy weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the best organic fertilizer for cotton?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much water does bajra need per week?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Tips for increasing torrdal yield in red soil.",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to predict wheat yield before harvest using soil and weather data?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is this yellow patch on my ragi?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Recommend a fertilizer for ragi during monsoon season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What can I grow in red soil in Punjab?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to check for root rot in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to control weeds in bengalgram cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Which crop matures quickly in rainy weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What disease causes yellowing in rice leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop gives high yield in Tamil Nadu?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Yield prediction for cotton in Andhra Pradesh with loamy soil and moderate rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is best for red soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop is good for crop rotation in peaty soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best spacing for planting torrdal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to identify pest damage in rice?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Fertilizer advice for bajra in Gujarat during cold weather.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to control weeds in groundnut cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to calculate cofee yield based on fertilizer and rainfall?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Both ask project.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Can you detect the disease from this image of my ragi?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Take parent seven front style.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to boost cofee yield in Karnataka using NPK?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Recommend a profitable crop for peaty soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop gives high yield in Andhra Pradesh?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to treat leaf curl in cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Yield prediction for cotton in Karnataka with alluvial soil and moderate rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the best time to apply pesticides on jowar?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is this yellow patch on my torrdal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to avoid over-fertilizing cofee?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Why are my wheat plants wilting?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the average yield of cofee in West Bengal using NPK fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is suitable for laterite soil and hot weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What disease causes yellowing in brinjal leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to boost bajra yield in Gujarat using NPK?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Suggest a drought-resistant crop for peaty soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How much jowar can I expect in windy season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the reason for stunted growth in wheat?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is causing black patches on my ragi?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "I need advice.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Tell me more.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to manage waterlogging in cotton fields?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is crop rotation important for bajra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Fertilizer advice for rice in Odisha during dry weather.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the yield per acre for rice in alluvial soil with drip irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Within must region become professional.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Fertilizer schedule for maize in red soil.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What disease causes yellowing in brinjal leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop matures quickly in rainy weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop is good for crop rotation in laterite soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the recommended fertilizer dose for rice?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the average cost of cultivating jowar?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to improve corn yield in loamy soil using organic manure?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to manage waterlogging in corn fields?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to check for root rot in bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What are common diseases in ragi?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Suggest a fertilizer for groundnut under cold conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Most!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What are the best practices to avoid this disease in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best time to apply pesticides on bajra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much corn can I expect in humid season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to avoid over-fertilizing bajra?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Class.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What prevention methods for this disease on brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Leaves of my cofee have brown spots, what is it?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Is urea suitable for wheat in peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to choose fertilizer for corn in Odisha?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest a fertilizer for cofee under cold conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to manage waterlogging in groundnut fields?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Best crop for peaty soil and hot weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How much ragi can I get from 2 acres with recommended fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "I need advice.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What crop should I plant in Tamil Nadu this year?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Suggest a drought-resistant crop for saline soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Help!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to store harvested bajra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the reason for stunted growth in bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Yield prediction for torrdal in Uttar Pradesh with loamy soil and moderate rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which crop is good for crop rotation in saline soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Why are my bajra plants wilting?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What can I grow in clay soil in West Bengal?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to stop this infection on my cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What can I grow in my field with clay soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to harvest bengalgram efficiently?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Recommend a fertilizer for ragi during windy season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "I need advice.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to use organic manure for groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the reason for stunted growth in corn?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Is this normal?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Crop suggestion for saline soil in Karnataka.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to recognize rust disease in bengalgram?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Can you explain?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Best crop for small farmers in Punjab.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to identify blight in bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Ten.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to improve soil fertility for brinjal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Certain of future then simple thank.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop is good for crop rotation in clay soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the average cost of cultivating maize?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Suggest a fertilizer for cofee under windy conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is this white fuzz on cotton leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best NPK ratio for bengalgram?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What crop should I plant in Tamil Nadu this year?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Suggest a fertilizer for ragi under monsoon conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Expected brinjal output per acre in dry weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which fertilizer should I use for wheat in alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest a fertilizer for bajra under monsoon conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What are the best practices to avoid this disease in corn?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Recommend a profitable crop for laterite soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "My groundnut has white powder on leaves, what should I do?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the average brinjal yield in peaty soil with proper irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Tell me more.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best cash crop for Gujarat?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best organic fertilizer for cofee?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Can I use DAP for wheat in Bihar?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "All remember.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Best crop for black soil and frosty weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best NPK ratio for bengalgram?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the yield per acre for bengalgram in alluvial soil with drip irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the yield per acre for ragi in red soil with drip irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Explain this.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Suggest a fertilizer for bajra under cold conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Why are ragi leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to control weeds in rice cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the average cost of cultivating cofee?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Expected corn output per acre in rainy weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Help!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is causing leaf drop in corn?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best organic fertilizer for jowar?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Recommend a profitable crop for clay soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to estimate wheat yield in saline soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Recommend a fertilizer for bajra during windy season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Is urea suitable for cotton in saline soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much water does torrdal need per week?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is causing black patches on my cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which micronutrients are important for ragi?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest actually there carry.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Is this okay?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to check for root rot in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best time to apply pesticides on groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best crop for mixed farming in Karnataka?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Yield forecast for rice this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the average rice yield in sandy soil with proper irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What do you think?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Political.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Can I use DAP for bajra in Punjab?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Tips for increasing bengalgram yield in laterite soil.",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to control weeds in wheat cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What prevention methods for this disease on maize?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "My torrdal has white powder on leaves, what should I do?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How do I prepare my field for growing wheat?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Best crop for small farmers in Karnataka.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best cash crop for West Bengal?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Can you detect the disease from this image of my bengalgram?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop is suitable for loamy soil and monsoon weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best time to fertilize bajra?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Which crop gives high yield in Punjab?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What are common diseases in brinjal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to diagnose disease in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop is good for crop rotation in loamy soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Suggest a fertilizer for rice under humid conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the reason for stunted growth in cotton?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How much water does torrdal need per week?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Issue sort and eye party trade end vote.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How do I prepare my field for growing torrdal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in cotton?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the ideal planting time for torrdal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much brinjal can I harvest from 1 hectare with proper fertilizer and windy weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Can you explain?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Meeting benefit practice end physical choose green say.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to treat leaf curl in wheat?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Best fertilizer for corn in Gujarat with sandy soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What can I cultivate in Karnataka during hot season?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the typical torrdal yield in windy season with compost?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What nutrients are needed for bengalgram in black soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What are common diseases in brinjal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best crop for mixed farming in Karnataka?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Debate employee mind.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How much brinjal can I expect in humid season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to boost rice yield in Andhra Pradesh using NPK?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What disease causes yellowing in bajra leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What nutrients are needed for cotton in alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best seed variety for torrdal in Andhra Pradesh?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best spacing for planting rice?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best cash crop for Tamil Nadu?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Fertilizer advice for jowar in Andhra Pradesh during dry weather.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to estimate rice yield in laterite soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in torrdal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best seed variety for corn in Maharashtra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is this?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Recommend a fertilizer for cofee during dry season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to estimate bengalgram yield in black soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to diagnose disease in torrdal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to apply fertilizer for bengalgram in Odisha?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best crop for hot conditions?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the typical bengalgram yield in frosty season with compost?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to recognize rust disease in ragi?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "My bajra has white powder on leaves, what should I do?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop is best for alluvial soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What disease causes yellowing in bengalgram leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best cash crop for Karnataka?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop gives high yield in Karnataka?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop is best for laterite soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to estimate cotton yield in clay soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to control weeds in bengalgram cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the average cotton yield in laterite soil with proper irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to harvest wheat efficiently?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to identify pest damage in bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to improve wheat growth with fertilizers in sandy soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is causing black patches on my cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Best practices for irrigating bengalgram in Maharashtra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Leaves of my rice have brown spots, what is it?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Explain this.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best time to apply pesticides on corn?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to check for root rot in ragi?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What next?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Expected bajra output per acre in drought weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Is this okay?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best crop for mixed farming in Tamil Nadu?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What are these holes in my ragi leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the maximum yield for maize in Punjab with hybrid seeds?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the average rice yield in clay soil with proper irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Why are my wheat plants wilting?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to stop this infection on my cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the record yield for bajra in Tamil Nadu with best practices?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the maximum yield for jowar in Punjab with hybrid seeds?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to check for root rot in cotton?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What are common diseases in bengalgram?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to use organic manure for ragi?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "I have a problem.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to manage waterlogging in wheat fields?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much rice can I expect in hot season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Less baby morning daughter conference.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best time to apply pesticides on jowar?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What disease causes yellowing in cofee leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Can I use DAP for brinjal in Odisha?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best cash crop for Punjab?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which crop matures quickly in cold weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Tips for increasing bajra yield in peaty soil.",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is crop rotation important for cotton?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Any suggestions?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Best fertilizer for cofee in Gujarat with alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Best crop for small farmers in West Bengal.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best crop for hot conditions?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How much corn can I get from 2 acres with recommended fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to protect cofee from pests?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to control weeds in wheat cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much brinjal can I expect in frosty season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to protect ragi from pests?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in jowar?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Bar economic increase.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best crop for humid conditions?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Can you help me?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best time to apply pesticides on groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Why are bajra leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is going on?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Expected bengalgram output per acre in humid weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Expected bengalgram output per acre in monsoon weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to estimate ragi yield in saline soil with limited irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to use organic manure for jowar?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to prevent lodging in brinjal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Which micronutrients are important for bengalgram?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Their region.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best cash crop for Odisha?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How much cofee can I expect in drought season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Tips for increasing wheat yield in red soil.",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How much water does groundnut need per week?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Top sound figure study.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Expected maize output per acre in humid weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What can I grow in sandy soil in Bihar?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Explain this.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Expected rice output per acre in cold weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Recommend a profitable crop for black soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What can I cultivate in Karnataka during hot season?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Any suggestions?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What prevention methods for this disease on bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Best crop for small farmers in West Bengal.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to boost bajra yield in Maharashtra using NPK?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What should I expect?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Fertilizer schedule for cofee in peaty soil.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What should I expect?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "I need advice.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Successful local someone final that decade on.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Suggest a drought-resistant crop for laterite soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Best crop for small farmers in Maharashtra.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to identify pest damage in wheat?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to predict wheat yield before harvest using soil and weather data?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the best time to apply pesticides on torrdal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to spot viral infection in groundnut?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to calculate groundnut yield based on fertilizer and rainfall?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How much rice can I harvest from 1 hectare with proper fertilizer and moderate weather?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in maize?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to manage waterlogging in rice fields?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Best practices for irrigating jowar in Tamil Nadu?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Example!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How much bajra can I get from 2 acres with recommended fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is causing leaf drop in groundnut?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop grows well in West Bengal with loamy soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which fertilizer should I use for groundnut in alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the reason for stunted growth in wheat?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Why are my maize plants wilting?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to improve soil fertility for cotton?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to recognize rust disease in cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best crop for organic farming in Gujarat?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is causing black patches on my groundnut?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Best fertilizer for maize in Uttar Pradesh with peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What nutrients are needed for cofee in black soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the average maize yield in loamy soil with proper irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Fertilizer advice for wheat in Punjab during windy weather.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much wheat can I get from 2 acres with recommended fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How do I prepare my field for growing wheat?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to predict bengalgram yield before harvest using soil and weather data?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Heavy agreement clearly get.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Help!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is causing leaf drop in ragi?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Why are my maize plants dying suddenly?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "I uploaded a photo, can you tell me what's wrong with my jowar?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is causing black patches on my bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the recommended fertilizer dose for cotton?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Tips for increasing brinjal yield in alluvial soil.",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Best crop for small farmers in West Bengal.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Can you help me?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to store harvested jowar?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Yield forecast for cofee this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "My jowar has white powder on leaves, what should I do?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to proceed?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What disease causes yellowing in rice leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to boost corn yield in Tamil Nadu using NPK?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the maximum yield for cotton in Karnataka with hybrid seeds?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Is this good?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop matures quickly in cold weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the best time to apply pesticides on torrdal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is crop rotation important for cofee?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What do you think?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What are these holes in my corn leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Expected groundnut output per acre in hot weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the best organic fertilizer for groundnut?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What are these holes in my bajra leaves?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What should I do now?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Whether show.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to recognize rust disease in corn?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What are common diseases in rice?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to choose fertilizer for rice in Punjab?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to identify pest damage in bengalgram?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Candidate could media focus party agreement.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Yield forecast for bajra this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to choose fertilizer for bajra in Tamil Nadu?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Which crop gives high yield in Uttar Pradesh?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to check for root rot in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Rest!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Amount operation seem.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What can I cultivate in Odisha during windy season?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the yield per acre for torrdal in black soil with drip irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Is compost enough for jowar in laterite soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest a fertilizer for ragi under moderate conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much maize can I produce in Punjab with good irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How much water does brinjal need per week?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What next?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop grows well in Karnataka with sandy soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the ideal planting time for brinjal?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is this mold on my wheat stems?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Yield forecast for ragi this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Front crime.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to recognize rust disease in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is this mold on my cofee stems?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What crop should I plant in Maharashtra this year?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What nutrients are needed for groundnut in peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How much water does maize need per week?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Why are cofee leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best organic fertilizer for ragi?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest a fertilizer for cotton under rainy conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What prevention methods for this disease on cofee?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the recommended fertilizer dose for wheat?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Best crop for sandy soil and humid weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Region future something movement standard.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Expected cofee output per acre in cold weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to improve brinjal growth with fertilizers in saline soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What can I grow in laterite soil in Maharashtra?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Best practices for irrigating torrdal in Punjab?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to treat leaf curl in rice?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to harvest rice efficiently?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Tips for increasing cotton yield in clay soil.",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Which fertilizer should I use for cotton in sandy soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Leaves of my jowar have brown spots, what is it?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to recognize rust disease in bajra?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the best organic fertilizer for torrdal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the expected cofee output in moderate weather with hybrid seeds?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What are the signs of nutrient deficiency in corn?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is this okay?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to improve soil fertility for cotton?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Is this good?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Yield prediction for torrdal in Tamil Nadu with red soil and moderate rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Fertilizer advice for ragi in Karnataka during dry weather.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What can I cultivate in Tamil Nadu during frosty season?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the record yield for maize in Karnataka with best practices?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is this mold on my cotton stems?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to spot viral infection in groundnut?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "I have a problem.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Benefit!",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the record yield for rice in Karnataka with best practices?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to calculate wheat yield based on fertilizer and rainfall?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Is urea suitable for torrdal in peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best cash crop for Karnataka?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How to apply fertilizer for rice in Tamil Nadu?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to calculate rice yield based on fertilizer and rainfall?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to control weeds in corn cultivation?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How do I prepare my field for growing bajra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Which micronutrients are important for ragi?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Inside?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best cash crop for West Bengal?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What can I grow in sandy soil in Gujarat?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Recommend a fertilizer for maize during drought season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Which crop is best for alluvial soil?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the yield per acre for corn in laterite soil with drip irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Best fertilizer for jowar in Uttar Pradesh with loamy soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to improve jowar growth with fertilizers in alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Can you explain?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop gives high yield in Punjab?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "How do I prepare my field for growing cofee?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What nutrients are needed for wheat in saline soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best spacing for planting wheat?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "How to prevent lodging in corn?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Best fertilizer for ragi in Punjab with alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to avoid over-fertilizing torrdal?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Is this good?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Suggest a drought-resistant crop for laterite soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the average cost of cultivating bajra?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the average cost of cultivating groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "Weight.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How much groundnut can I get from 2 acres with recommended fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Which fertilizer should I use for cotton in clay soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is the best cash crop for Maharashtra?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Recommend a profitable crop for clay soil.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Why are my corn plants wilting?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How to avoid over-fertilizing wheat?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What is going on?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How much cotton can I produce in Andhra Pradesh with good irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Truth some month.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "What is the best cash crop for Uttar Pradesh?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Suggest a fertilizer for brinjal under dry conditions.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What do you think?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How much brinjal can I expect in monsoon season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Fertilizer recommendation for rice in saline soil during hot season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Which crop gives high yield in Uttar Pradesh?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Which fertilizer should I use for groundnut in alluvial soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Can you detect the disease from this image of my maize?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "As start real.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Expected bengalgram output per acre in monsoon weather and clay soil.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Amount hope author check edge.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Best crop for small farmers in Punjab.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Suggest a crop for Gujarat during drought season.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "National.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to diagnose disease in torrdal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "How much bajra can I produce in Tamil Nadu with good irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the expected wheat output in moderate weather with hybrid seeds?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How much maize can I expect in moderate season with organic fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What next?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Yield forecast for corn this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How to recognize rust disease in groundnut?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Mrs go require.",
+    "intent": "Unclear"
+  },
+  {
+    "query": "Which crop matures quickly in monsoon weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Yield forecast for wheat this year with above average rainfall.",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "What is the best crop for cold conditions?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Leaves of my bajra have brown spots, what is it?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Which crop matures quickly in dry weather?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "What is the record yield for ragi in Karnataka with best practices?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Best fertilizer for cotton in Tamil Nadu with black soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "What can I cultivate in West Bengal during frosty season?",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Can you help me?",
+    "intent": "Unclear"
+  },
+  {
+    "query": "How to check for root rot in brinjal?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "What is the average cost of cultivating groundnut?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the average yield of bajra in Punjab using NPK fertilizer?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "How much jowar can I produce in Gujarat with good irrigation?",
+    "intent": "Yield Prediction"
+  },
+  {
+    "query": "Best fertilizer for maize in Odisha with peaty soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Suggest a crop for Punjab during moderate season.",
+    "intent": "Crop Recommendation"
+  },
+  {
+    "query": "Fertilizer recommendation for jowar in laterite soil during frosty season.",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Why are wheat leaves turning purple?",
+    "intent": "Image Plant Disease Detection"
+  },
+  {
+    "query": "Is urea suitable for wheat in red soil?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "How to protect torrdal from pests?",
+    "intent": "General Farming Question"
+  },
+  {
+    "query": "What is the best organic fertilizer for wheat?",
+    "intent": "Fertilizer Classification"
+  },
+  {
+    "query": "Leaves of my groundnut have brown spots, what is it?",
+    "intent": "Image Plant Disease Detection"
+  }
+]

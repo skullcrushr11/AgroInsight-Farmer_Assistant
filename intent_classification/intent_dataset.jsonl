@@ -1,0 +1,1577 @@
+{"query": "How to improve soil for paddy farming?", "intent": "General Farming Question"}
+{"query": "Tell me about corn", "intent": "General Farming Question"}
+{"query": "Tell me about corn", "intent": "General Farming Question"}
+{"query": "Best practices for bajra cultivation?", "intent": "General Farming Question"}
+{"query": "What are the irrigation requirements for bengalgram?", "intent": "General Farming Question"}
+{"query": "How to control pests in brinjal crops?", "intent": "General Farming Question"}
+{"query": "Optimal spacing for maize planting?", "intent": "General Farming Question"}
+{"query": "When is the best time to sow wheat?", "intent": "General Farming Question"}
+{"query": "How to prepare land for cotton farming?", "intent": "General Farming Question"}
+{"query": "What are common diseases in coffee plants?", "intent": "General Farming Question"}
+{"query": "How to increase yield in groundnut farming?", "intent": "General Farming Question"}
+{"query": "Best season for growing jowar?", "intent": "General Farming Question"}
+{"query": "What type of soil is best for ragi?", "intent": "General Farming Question"}
+{"query": "How to manage weeds in torrdal fields?", "intent": "General Farming Question"}
+{"query": "What are the water requirements for rice?", "intent": "General Farming Question"}
+{"query": "How to prevent lodging in wheat crops?", "intent": "General Farming Question"}
+{"query": "What is the ideal temperature for bajra growth?", "intent": "General Farming Question"}
+{"query": "How to test soil for bengalgram farming?", "intent": "General Farming Question"}
+{"query": "Best organic practices for brinjal?", "intent": "General Farming Question"}
+{"query": "How to improve pollination in maize?", "intent": "General Farming Question"}
+{"query": "What are the signs of nutrient deficiency in cotton?", "intent": "General Farming Question"}
+{"query": "How to prune coffee plants for better yield?", "intent": "General Farming Question"}
+{"query": "What are the storage methods for groundnut?", "intent": "General Farming Question"}
+{"query": "How to control aphids in jowar?", "intent": "General Farming Question"}
+{"query": "Best intercrops for ragi?", "intent": "General Farming Question"}
+{"query": "How to harvest torrdal efficiently?", "intent": "General Farming Question"}
+{"query": "What are the stages of rice growth?", "intent": "General Farming Question"}
+{"query": "How to reduce post-harvest losses in wheat?", "intent": "General Farming Question"}
+{"query": "What is the seed rate for bajra per acre?", "intent": "General Farming Question"}
+{"query": "How to manage soil salinity for bengalgram?", "intent": "General Farming Question"}
+{"query": "Best mulch for brinjal farming?", "intent": "General Farming Question"}
+{"query": "How to prevent fungal infections in maize?", "intent": "General Farming Question"}
+{"query": "What are the labor requirements for cotton?", "intent": "General Farming Question"}
+{"query": "How to shade coffee plants properly?", "intent": "General Farming Question"}
+{"query": "What are the market prices for groundnut?", "intent": "General Farming Question"}
+{"query": "How to improve soil fertility for jowar?", "intent": "General Farming Question"}
+{"query": "Best time to irrigate ragi?", "intent": "General Farming Question"}
+{"query": "How to store torrdal seeds?", "intent": "General Farming Question"}
+{"query": "What are the common pests in rice fields?", "intent": "General Farming Question"}
+{"query": "How to use drip irrigation for wheat?", "intent": "General Farming Question"}
+{"query": "What is the germination period for bajra?", "intent": "General Farming Question"}
+{"query": "How to control weeds in bengalgram organically?", "intent": "General Farming Question"}
+{"query": "Best support structures for brinjal?", "intent": "General Farming Question"}
+{"query": "How to identify nutrient deficiencies in maize?", "intent": "General Farming Question"}
+{"query": "What are the harvesting tools for cotton?", "intent": "General Farming Question"}
+{"query": "How to process coffee beans after harvest?", "intent": "General Farming Question"}
+{"query": "What are the export requirements for groundnut?", "intent": "General Farming Question"}
+{"query": "How to prevent bird damage in jowar?", "intent": "General Farming Question"}
+{"query": "Best companion plants for ragi?", "intent": "General Farming Question"}
+{"query": "How to dry torrdal after harvesting?", "intent": "General Farming Question"}
+{"query": "What are the growth stages of rice?", "intent": "General Farming Question"}
+{"query": "How to manage waterlogging in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal pH for bajra soil?", "intent": "General Farming Question"}
+{"query": "How to rotate crops with bengalgram?", "intent": "General Farming Question"}
+{"query": "Best organic fertilizers for brinjal?", "intent": "General Farming Question"}
+{"query": "How to prevent stem borers in maize?", "intent": "General Farming Question"}
+{"query": "What are the grading standards for cotton?", "intent": "General Farming Question"}
+{"query": "How to roast coffee beans at home?", "intent": "General Farming Question"}
+{"query": "What are the by-products of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control termites in jowar?", "intent": "General Farming Question"}
+{"query": "Best storage conditions for ragi?", "intent": "General Farming Question"}
+{"query": "How to increase protein content in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the hybrid varieties of rice?", "intent": "General Farming Question"}
+{"query": "How to reduce input costs in wheat farming?", "intent": "General Farming Question"}
+{"query": "What is the spacing for bajra rows?", "intent": "General Farming Question"}
+{"query": "How to improve pod formation in bengalgram?", "intent": "General Farming Question"}
+{"query": "Best time to plant brinjal seedlings?", "intent": "General Farming Question"}
+{"query": "How to identify drought stress in maize?", "intent": "General Farming Question"}
+{"query": "What are the fiber qualities of cotton?", "intent": "General Farming Question"}
+{"query": "How to brew coffee from home-grown beans?", "intent": "General Farming Question"}
+{"query": "What are the uses of groundnut oil?", "intent": "General Farming Question"}
+{"query": "How to prevent smut disease in jowar?", "intent": "General Farming Question"}
+{"query": "Best threshing methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to increase yield in torrdal farming?", "intent": "General Farming Question"}
+{"query": "What are the milling options for rice?", "intent": "General Farming Question"}
+{"query": "How to manage frost damage in wheat?", "intent": "General Farming Question"}
+{"query": "What is the seed treatment for bajra?", "intent": "General Farming Question"}
+{"query": "How to control nematodes in bengalgram?", "intent": "General Farming Question"}
+{"query": "Best pruning techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use pheromone traps in maize?", "intent": "General Farming Question"}
+{"query": "What are the spinning qualities of cotton?", "intent": "General Farming Question"}
+{"query": "How to decaffeinate coffee at home?", "intent": "General Farming Question"}
+{"query": "What are the nutritional benefits of groundnut?", "intent": "General Farming Question"}
+{"query": "How to prevent lodging in jowar?", "intent": "General Farming Question"}
+{"query": "Best drying methods for ragi grains?", "intent": "General Farming Question"}
+{"query": "How to improve soil structure for torrdal?", "intent": "General Farming Question"}
+{"query": "What are the parboiling methods for rice?", "intent": "General Farming Question"}
+{"query": "How to control rust in wheat?", "intent": "General Farming Question"}
+{"query": "What is the ideal temperature for bajra storage?", "intent": "General Farming Question"}
+{"query": "How to improve flowering in bengalgram?", "intent": "General Farming Question"}
+{"query": "Best trellising methods for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use biofertilizers in maize?", "intent": "General Farming Question"}
+{"query": "What are the dyeing properties of cotton?", "intent": "General Farming Question"}
+{"query": "How to make compost from coffee husks?", "intent": "General Farming Question"}
+{"query": "What are the industrial uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control shoot fly in jowar?", "intent": "General Farming Question"}
+{"query": "Best winnowing techniques for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent pod borer in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the polishing methods for rice?", "intent": "General Farming Question"}
+{"query": "How to manage hail damage in wheat?", "intent": "General Farming Question"}
+{"query": "What is the shelf life of bajra seeds?", "intent": "General Farming Question"}
+{"query": "How to improve nitrogen fixation in bengalgram?", "intent": "General Farming Question"}
+{"query": "Best grafting techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use neem oil for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the weaving qualities of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee leaf tea?", "intent": "General Farming Question"}
+{"query": "What are the medicinal uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control head bugs in jowar?", "intent": "General Farming Question"}
+{"query": "Best dehulling methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent yellow mosaic virus in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the packaging standards for rice?", "intent": "General Farming Question"}
+{"query": "How to manage wind damage in wheat?", "intent": "General Farming Question"}
+{"query": "What is the moisture content for storing bajra?", "intent": "General Farming Question"}
+{"query": "How to improve phosphorus uptake in bengalgram?", "intent": "General Farming Question"}
+{"query": "Best seed saving techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use diatomaceous earth in maize storage?", "intent": "General Farming Question"}
+{"query": "What are the knitting qualities of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee flour?", "intent": "General Farming Question"}
+{"query": "What are the cosmetic uses of groundnut oil?", "intent": "General Farming Question"}
+{"query": "How to control midge flies in jowpea?", "intent": "General Farming Question"}
+{"query": "Best fermentation methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent powdery mildew in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the export varieties of rice?", "intent": "General Farming Question"}
+{"query": "How to manage rodent damage in wheat?", "intent": "General Farming Question"}
+{"query": "What is the germination temperature for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve potassium availability for bengalgram?", "intent": "General Farming Question"}
+{"query": "Best pollination techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use sticky traps for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the non-woven uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry tea?", "intent": "General Farming Question"}
+{"query": "What are the biodiesel uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control grain moths in jowar?", "intent": "General Farming Question"}
+{"query": "Best malting methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent leaf curl in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the aromatic varieties of rice?", "intent": "General Farming Question"}
+{"query": "How to manage erosion in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal humidity for bajra storage?", "intent": "General Farming Question"}
+{"query": "How to improve micronutrient uptake in bengalgram?", "intent": "General Farming Question"}
+{"query": "Best hydroponic methods for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use kaolin clay for maize pest control?", "intent": "General Farming Question"}
+{"query": "What are the geotextile uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee pulp compost?", "intent": "General Farming Question"}
+{"query": "What are the pharmaceutical uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control weevils in jowar?", "intent": "General Farming Question"}
+{"query": "Best sprouting methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent bacterial blight in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the glutinous rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage compaction in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the seed viability period for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve water retention for bengalgram?", "intent": "General Farming Question"}
+{"query": "Best aquaponic methods for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use garlic spray for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the paper-making uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee bean flour?", "intent": "General Farming Question"}
+{"query": "What are the animal feed uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control armyworms in jowar?", "intent": "General Farming Question"}
+{"query": "Best soaking methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent root rot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the basmati rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage salinity in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal storage container for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve aeration for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best vertical farming techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use chili spray for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the insulation uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee husk biochar?", "intent": "General Farming Question"}
+{"query": "What are the snack uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control cutworms in jowar?", "intent": "General Farming Question"}
+{"query": "Best germination methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent wilt in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the jasmine rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage alkalinity in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal drying method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve drainage for bengalgram fields?", "intent": "General Farming Question"}
+{"query": "Best greenhouse techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use soap spray for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the surgical uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee parchment fertilizer?", "intent": "General Farming Question"}
+{"query": "What are the confectionery uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control grasshoppers in jowar?", "intent": "General Farming Question"}
+{"query": "Best cooking methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent mosaic virus in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the red rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage sodicity in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal threshing method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve tilth for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best shade net techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use tobacco spray for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the quilting uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee silver skin tea?", "intent": "General Farming Question"}
+{"query": "What are the bakery uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control stem borers in jowar?", "intent": "General Farming Question"}
+{"query": "Best roasting methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent anthracnose in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the black rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage gypsum application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal winnowing method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve crumb structure for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best polyhouse techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use pyrethrum spray for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the embroidery uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee mucilage wine?", "intent": "General Farming Question"}
+{"query": "What are the sauce uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control leaf miners in jowar?", "intent": "General Farming Question"}
+{"query": "Best puffing methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent leaf spot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the wild rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage lime application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal dehulling method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve aggregate stability for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best low tunnel techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use spinosad for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the tapestry uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry syrup?", "intent": "General Farming Question"}
+{"query": "What are the spread uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control thrips in jowar?", "intent": "General Farming Question"}
+{"query": "Best flaking methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent rust in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the upland rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage sulfur application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal malting method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve water infiltration for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best row cover techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use Bt spray for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the canvas uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee parchment paper?", "intent": "General Farming Question"}
+{"query": "What are the butter uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control whiteflies in jowar?", "intent": "General Farming Question"}
+{"query": "Best extrusion methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent smut in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the lowland rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage zinc application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal puffing method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve cation exchange capacity for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best cloche techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use azadirachtin for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the denim uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry jam?", "intent": "General Farming Question"}
+{"query": "What are the milk uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control leafhoppers in jowar?", "intent": "General Farming Question"}
+{"query": "Best popping methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent blight in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the deepwater rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage boron application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal flaking method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve organic matter for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best cold frame techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use beauveria bassiana for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the terrycloth uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry vinegar?", "intent": "General Farming Question"}
+{"query": "What are the flour uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control mealybugs in jowar?", "intent": "General Farming Question"}
+{"query": "Best fermentation methods for ragi flour?", "intent": "General Farming Question"}
+{"query": "How to prevent leaf blight in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the floating rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage manganese application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal extrusion method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve microbial activity for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best hot cap techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use metarhizium for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the flannel uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry liqueur?", "intent": "General Farming Question"}
+{"query": "What are the protein isolate uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control spider mites in jowar?", "intent": "General Farming Question"}
+{"query": "Best baking methods for ragi bread?", "intent": "General Farming Question"}
+{"query": "How to prevent stem rot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the tidal rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage copper application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal popping method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve earthworm activity for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best wall-o-water techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use bacillus thuringiensis for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the muslin uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry salsa?", "intent": "General Farming Question"}
+{"query": "What are the texturized protein uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control stink bugs in jowar?", "intent": "General Farming Question"}
+{"query": "Best steaming methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent root knot nematodes in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the rainfed rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage molybdenum application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal fermentation method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve mycorrhizal association for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best cloche bell techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use spinetoram for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the voile uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry chutney?", "intent": "General Farming Question"}
+{"query": "What are the hydrolyzed protein uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control earwigs in jowar?", "intent": "General Farming Question"}
+{"query": "Best boiling methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent collar rot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the irrigated rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage chlorine application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal baking method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve nitrogen-fixing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best water wall techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use pyrethrin for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the organdy uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry relish?", "intent": "General Farming Question"}
+{"query": "What are the defatted flour uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control wireworms in jowar?", "intent": "General Farming Question"}
+{"query": "Best microwaving methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent foot rot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the aerobic rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage silicon application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal steaming method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve phosphorus-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best thermal blanket techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use rotenone for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the batiste uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry ketchup?", "intent": "General Farming Question"}
+{"query": "What are the high-oleic oil uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root aphids in jowar?", "intent": "General Farming Question"}
+{"query": "Best pressure cooking methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent charcoal rot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the System of Rice Intensification varieties?", "intent": "General Farming Question"}
+{"query": "How to manage cobalt application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal boiling method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve potassium-mobilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best fleece cover techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use sabadilla for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the cheesecloth uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry barbecue sauce?", "intent": "General Farming Question"}
+{"query": "What are the roasted uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root mealybugs in jowar?", "intent": "General Farming Question"}
+{"query": "Best slow cooking methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent ascochyta blight in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the direct-seeded rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage nickel application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal microwaving method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve zinc-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best frost cloth techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use ryania for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the gauze uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry hot sauce?", "intent": "General Farming Question"}
+{"query": "What are the boiled uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root weevils in jowar?", "intent": "General Farming Question"}
+{"query": "Best air frying methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent cercospora leaf spot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the transplanted rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage selenium application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal pressure cooking method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve iron-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best floating row cover techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use quassia for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the swiss uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry marinade?", "intent": "General Farming Question"}
+{"query": "What are the sprouted uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root maggots in jowar?", "intent": "General Farming Question"}
+{"query": "Best deep frying methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent alternaria blight in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the wetbed rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage vanadium application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal slow cooking method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve manganese-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best insect netting techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use derris for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the dimity uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry glaze?", "intent": "General Farming Question"}
+{"query": "What are the pickled uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root flies in jowar?", "intent": "General Farming Question"}
+{"query": "Best pan frying methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent phoma blight in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the drybed rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage iodine application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal air frying method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve copper-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best shade cloth techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use nicotine sulfate for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the pique uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry reduction?", "intent": "General Farming Question"}
+{"query": "What are the candied uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root thrips in jowar?", "intent": "General Farming Question"}
+{"query": "Best stir frying methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent septoria leaf spot in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the nursery rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage fluorine application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal deep frying method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve molybdenum-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best bird netting techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use lime sulfur for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the seersucker uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry coulis?", "intent": "General Farming Question"}
+{"query": "What are the chocolate-covered uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root beetles in jowar?", "intent": "General Farming Question"}
+{"query": "Best sauteing methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent fusarium wilt in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the mat nursery rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage aluminum application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal pan frying method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve boron-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best hail netting techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use horticultural oil for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the terry uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry gastrique?", "intent": "General Farming Question"}
+{"query": "What are the honey-roasted uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root bugs in jowar?", "intent": "General Farming Question"}
+{"query": "Best grilling methods for ragi?", "intent": "General Farming Question"}
+{"query": "How to prevent verticillium wilt in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the dapog nursery rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage titanium application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal stir frying method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve silicon-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best anti-insect mesh techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use mineral oil for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the velour uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry mostarda?", "intent": "General Farming Question"}
+{"query": "What are the spiced uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root caterpillars in jowar?", "intent": "General Farming Question"}
+{"query": "Best roasting methods for ragi flour?", "intent": "General Farming Question"}
+{"query": "How to prevent bacterial wilt in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the modified mat nursery rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage chromium application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal sauteing method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve cobalt-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Best insect-proof net techniques for brinjal?", "intent": "General Farming Question"}
+{"query": "How to use dormant oil for maize pests?", "intent": "General Farming Question"}
+{"query": "What are the velveteen uses of cotton?", "intent": "General Farming Question"}
+{"query": "How to make coffee cherry syrup glaze?", "intent": "General Farming Question"}
+{"query": "What are the spicy uses of groundnut?", "intent": "General Farming Question"}
+{"query": "How to control root aphids in jowpea?", "intent": "General Farming Question"}
+{"query": "Best baking methods for ragi flour?", "intent": "General Farming Question"}
+{"query": "How to prevent damping-off in torrdal?", "intent": "General Farming Question"}
+{"query": "What are the aerobic mat nursery rice varieties?", "intent": "General Farming Question"}
+{"query": "How to manage lithium application in wheat fields?", "intent": "General Farming Question"}
+{"query": "What is the ideal grilling method for bajra?", "intent": "General Farming Question"}
+{"query": "How to improve selenium-solubilizing bacteria for bengalgram soil?", "intent": "General Farming Question"}
+{"query": "Tell me about maize cultivation.", "intent": "General Farming Question"}
+{"query": "Explain the growth stages of wheat.", "intent": "General Farming Question"}
+{"query": "What is the impact of rice farming on the environment?", "intent": "General Farming Question"}
+{"query": "How does a cotton plant look?", "intent": "General Farming Question"}
+{"query": "Where is coffee grown commercially?", "intent": "General Farming Question"}
+{"query": "What weather conditions does bajra thrive in?", "intent": "General Farming Question"}
+{"query": "Describe the ideal soil for growing brinjal.", "intent": "General Farming Question"}
+{"query": "Tell me about the history of bengalgram farming.", "intent": "General Farming Question"}
+{"query": "Explain the nutritional value of ragi.", "intent": "General Farming Question"}
+{"query": "What pests affect groundnut crops?", "intent": "General Farming Question"}
+{"query": "How tall does a jowar plant grow?", "intent": "General Farming Question"}
+{"query": "What are the uses of torrdal?", "intent": "General Farming Question"}
+{"query": "Describe the flowering stage of rice.", "intent": "General Farming Question"}
+{"query": "Tell me about hybrid varieties of maize.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the average yield of wheat per hectare?", "intent": "General Farming Question"}
+{"query": "Explain the irrigation needs of cotton.", "intent": "General Farming Question"}
+{"query": "How long does it take for coffee beans to mature?", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the origin of bajra?", "intent": "General Farming Question"}
+{"query": "Describe the leaves of a brinjal plant.", "intent": "General Farming Question"}
+{"query": "Tell me about the protein content in bengalgram.", "intent": "General Farming Question"}
+{"query": "What climates are unsuitable for ragi?", "intent": "General Farming Question"}
+{"query": "How deep should groundnut seeds be planted?", "intent": "General Farming Question"}
+{"query": "Explain the harvesting process for jowar.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the shelf life of torrdal seeds?", "intent": "General Farming Question"}
+{"query": "Tell me about the pollination of rice plants.", "intent": "General Farming Question"}
+{"query": "What are the common diseases of maize?", "intent": "General Farming Question"}
+{"query": "Describe the root system of wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton affect soil health?", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the ideal altitude for coffee farming?", "intent": "General Farming Question"}
+{"query": "Tell me about drought-resistant bajra varieties.", "intent": "General Farming Question"}
+{"query": "Explain how brinjal flowers develop into fruits.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the global demand for bengalgram?", "intent": "General Farming Question"}
+{"query": "Describe the grain structure of ragi.", "intent": "General Farming Question"}
+{"query": "How does groundnut improve soil fertility?", "intent": "General Farming Question"}
+{"query": "Tell me about the folklore around jowar.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the water requirement for torrdal?", "intent": "General Farming Question"}
+{"query": "Explain the significance of rice in Asian cultures.", "intent": "General Farming Question"}
+{"query": "What birds are attracted to maize fields?", "intent": "General Farming Question"}
+{"query": "Describe the ideal temperature for wheat germination.", "intent": "General Farming Question"}
+{"query": "How is cotton fiber processed after harvesting?", "intent": "General Farming Question"}
+{"query": "Tell me about shade-grown coffee.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in livestock feed?", "intent": "General Farming Question"}
+{"query": "Explain the color variations in brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in traditional dishes?", "intent": "General Farming Question"}
+{"query": "Describe the pest resistance of ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the economic impact of groundnut farming?", "intent": "General Farming Question"}
+{"query": "Tell me about the symbolism of jowar in festivals.", "intent": "General Farming Question"}
+{"query": "How does torrdal compare to other pulses?", "intent": "General Farming Question"}
+{"query": "Explain the labor intensity of rice farming.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the carbon footprint of maize production?", "intent": "General Farming Question"}
+{"query": "Describe the flowering pattern of wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact water resources?", "intent": "General Farming Question"}
+{"query": "Tell me about fair-trade coffee practices.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the nutritional profile of bajra?", "intent": "General Farming Question"}
+{"query": "Explain the seed-saving techniques for brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram stored long-term?", "intent": "General Farming Question"}
+{"query": "Describe the drought tolerance of ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in crop rotation?", "intent": "General Farming Question"}
+{"query": "Tell me about the cultural significance of jowar.", "intent": "General Farming Question"}
+{"query": "How is torrdal processed for consumption?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice terraces in farming.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the history of maize domestication?", "intent": "General Farming Question"}
+{"query": "Describe the ideal pH for wheat soil.", "intent": "General Farming Question"}
+{"query": "How does cotton compare to synthetic fibers?", "intent": "General Farming Question"}
+{"query": "Tell me about the caffeine content in coffee.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the milling process for bajra?", "intent": "General Farming Question"}
+{"query": "Explain the hybrid varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram traded globally?", "intent": "General Farming Question"}
+{"query": "Describe the traditional uses of ragi flour.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the impact of groundnut on heart health?", "intent": "General Farming Question"}
+{"query": "Tell me about the folklore of jowar farming.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Ayurveda?", "intent": "General Farming Question"}
+{"query": "Explain the symbolism of rice in weddings.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in biofuel production?", "intent": "General Farming Question"}
+{"query": "Describe the ideal rainfall for wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton farming affect biodiversity?", "intent": "General Farming Question"}
+{"query": "Tell me about the roasting process of coffee.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in gluten-free diets?", "intent": "General Farming Question"}
+{"query": "Explain the grafting techniques for brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram processed into flour?", "intent": "General Farming Question"}
+{"query": "Describe the fermentation of ragi for beverages.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut oil in cooking?", "intent": "General Farming Question"}
+{"query": "Tell me about the festivals celebrating jowar.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Indian cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the rituals involving rice in Asia.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the impact of maize on indigenous diets?", "intent": "General Farming Question"}
+{"query": "Describe the winter hardiness of wheat.", "intent": "General Farming Question"}
+{"query": "How does organic cotton farming differ?", "intent": "General Farming Question"}
+{"query": "Tell me about the decaffeination of coffee.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in drought relief?", "intent": "General Farming Question"}
+{"query": "Explain the purple pigment in brinjal skin.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in snacks?", "intent": "General Farming Question"}
+{"query": "Describe the malting process for ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in confectionery?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based alcoholic drinks.", "intent": "General Farming Question"}
+{"query": "How is torrdal stored to prevent pests?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in religious offerings.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the genetic diversity of maize?", "intent": "General Farming Question"}
+{"query": "Describe the impact of climate change on wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton contribute to the textile industry?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee cherry\u00e2\u20ac\u2122s structure.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in arid farming systems?", "intent": "General Farming Question"}
+{"query": "Explain the bitterness in brinjal varieties.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Middle Eastern cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the popping varieties of ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in animal feed?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based bread recipes.", "intent": "General Farming Question"}
+{"query": "How is torrdal milled into dal?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in sushi preparation.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Mexican culture?", "intent": "General Farming Question"}
+{"query": "Describe the impact of frost on wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton compare to linen?", "intent": "General Farming Question"}
+{"query": "Tell me about the caffeine extraction process.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in ethanol production?", "intent": "General Farming Question"}
+{"query": "Explain the seedless varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Ayurvedic medicine?", "intent": "General Farming Question"}
+{"query": "Describe the flaking process for ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in biodiesel?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based baby food.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in South Indian dishes?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Chinese festivals.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Native American traditions?", "intent": "General Farming Question"}
+{"query": "Describe the impact of hail on wheat crops.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact pollinators?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean grading system.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in traditional medicine?", "intent": "General Farming Question"}
+{"query": "Explain the white varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in vegan diets?", "intent": "General Farming Question"}
+{"query": "Describe the puffing process for ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in peanut butter?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based fermented foods.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Sri Lankan cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Thai desserts.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in African cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the impact of wind on wheat fields.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact soil erosion?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean fermentation process.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in ritual offerings?", "intent": "General Farming Question"}
+{"query": "Explain the striped varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in gluten-free baking?", "intent": "General Farming Question"}
+{"query": "Describe the extrusion process for ragi.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in African stews?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based porridge.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Nepali cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Japanese tea ceremonies.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Central American diets?", "intent": "General Farming Question"}
+{"query": "Describe the impact of flooding on wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact groundwater?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean drying methods.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in folk dances?", "intent": "General Farming Question"}
+{"query": "Explain the round varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Middle Eastern sweets?", "intent": "General Farming Question"}
+{"query": "Describe the malting of ragi for beer.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Southeast Asian cuisine?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based pancakes.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Bangladeshi dishes?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Korean rituals.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Brazilian cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the impact of drought on wheat yields.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact local economies?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean roasting levels.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in tribal ceremonies?", "intent": "General Farming Question"}
+{"query": "Explain the long varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Ethiopian cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the flaking of ragi for breakfast cereals.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in West African sauces?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based flatbreads.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Pakistani cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Vietnamese festivals.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Caribbean diets?", "intent": "General Farming Question"}
+{"query": "Describe the impact of pests on wheat storage.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact air quality?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean packaging process.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in rainfed agriculture?", "intent": "General Farming Question"}
+{"query": "Explain the miniature varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Mediterranean diets?", "intent": "General Farming Question"}
+{"query": "Describe the puffing of ragi for snacks.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Indian chutneys?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based desserts.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Burmese cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Balinese offerings.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Andean cultures?", "intent": "General Farming Question"}
+{"query": "Describe the impact of hail on wheat quality.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact land use?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean export process.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in climate-resilient farming?", "intent": "General Farming Question"}
+{"query": "Explain the Thai varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Afghan cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the extrusion of ragi for pasta.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Indonesian satay?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based fermented drinks.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Sri Lankan curries?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Filipino desserts.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Hopi traditions?", "intent": "General Farming Question"}
+{"query": "Describe the impact of frost on wheat germination.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact pesticide use?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean certification systems.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in water-scarce regions?", "intent": "General Farming Question"}
+{"query": "Explain the Japanese varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Persian stews?", "intent": "General Farming Question"}
+{"query": "Describe the malting of ragi for health drinks.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Thai salads?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based savory snacks.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Malaysian cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Cambodian ceremonies.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Navajo culture?", "intent": "General Farming Question"}
+{"query": "Describe the impact of heatwaves on wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact farmer livelihoods?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean auction process.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in marginal soils?", "intent": "General Farming Question"}
+{"query": "Explain the Italian varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Turkish cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the flaking of ragi for instant foods.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Vietnamese spring rolls?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based breakfast dishes.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Singaporean cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Laotian festivals.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Zuni traditions?", "intent": "General Farming Question"}
+{"query": "Describe the impact of waterlogging on wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact rural employment?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean traceability systems.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in agroforestry?", "intent": "General Farming Question"}
+{"query": "Explain the Greek varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Armenian cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the puffing of ragi for baby food.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Filipino kare-kare?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based festive foods.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Bruneian cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Bhutanese culture.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Mayan mythology?", "intent": "General Farming Question"}
+{"query": "Describe the impact of salinity on wheat.", "intent": "General Farming Question"}
+{"query": "How does cotton farming impact gender roles?", "intent": "General Farming Question"}
+{"query": "Tell me about the coffee bean storage conditions.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of bajra in silvopasture systems?", "intent": "General Farming Question"}
+{"query": "Explain the Lebanese varieties of brinjal.", "intent": "General Farming Question"}
+{"query": "How is bengalgram used in Georgian cuisine?", "intent": "General Farming Question"}
+{"query": "Describe the extrusion of ragi for noodles.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of groundnut in Burmese mohinga?", "intent": "General Farming Question"}
+{"query": "Tell me about the jowar-based ritual foods.", "intent": "General Farming Question"}
+{"query": "How is torrdal used in Timorese cuisine?", "intent": "General Farming Question"}
+{"query": "Explain the role of rice in Mongolian traditions.", "intent": "General Farming Question"}
+{"query": "What\u00e2\u20ac\u2122s the role of maize in Aztec rituals?", "intent": "General Farming Question"}
+{"query": "What fertilizer should I use for sandy soil with low nitrogen?", "intent": "Fertilizer Classification"}
+{"query": "Best fertilizer for clay soil growing wheat?", "intent": "Fertilizer Classification"}
+{"query": "Which NPK ratio is best for maize in rainy season?", "intent": "Fertilizer Classification"}
+{"query": "Recommended fertilizer for acidic soil with pH 5.5?", "intent": "Fertilizer Classification"}
+{"query": "What organic fertilizer works best for brinjal in hot climates?", "intent": "Fertilizer Classification"}
+{"query": "Suggest a slow-release fertilizer for rice in waterlogged fields.", "intent": "Fertilizer Classification"}
+{"query": "Best fertilizer mix for bajra in drought conditions?", "intent": "Fertilizer Classification"}
+{"query": "What micronutrients should I add for coffee in laterite soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for bengalgram in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "Which fertilizer is best for cotton in black soil with high phosphorus?", "intent": "Fertilizer Classification"}
+{"query": "What foliar spray should I use for jowar with zinc deficiency?", "intent": "Fertilizer Classification"}
+{"query": "Best biofertilizer for ragi in red sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "How much urea should I apply for wheat in loamy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer schedule for groundnut in low-rainfall areas?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the best potassium source for torrdal in dry weather?", "intent": "Fertilizer Classification"}
+{"query": "Which fertilizer improves yield for maize in high-temperature regions?", "intent": "Fertilizer Classification"}
+{"query": "Best liquid fertilizer for brinjal in hydroponic systems?", "intent": "Fertilizer Classification"}
+{"query": "Suggest a fertilizer blend for rice in saline-affected soil.", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal calcium supplement for coffee in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat after a legume crop?", "intent": "Fertilizer Classification"}
+{"query": "Which organic manure is best for sandy loam soil with low organic matter?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK for bajra in semi-arid regions?", "intent": "Fertilizer Classification"}
+{"query": "How to correct iron deficiency in cotton grown in calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer plan for maize intercropped with legumes?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the best phosphorus fertilizer for clayey soil with high pH?", "intent": "Fertilizer Classification"}
+{"query": "Recommended biofertilizers for jowar in dryland farming?", "intent": "Fertilizer Classification"}
+{"query": "Best sulfur-containing fertilizer for groundnut in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "How much DAP should I use for rice in alluvial soil?", "intent": "Fertilizer Classification"}
+{"query": "Which micronutrient mix is best for ragi in lateritic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in water-stressed conditions?", "intent": "Fertilizer Classification"}
+{"query": "Best organic compost for brinjal in coastal saline soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal magnesium supplement for coffee in volcanic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for maize in high-rainfall areas with leaching risk?", "intent": "Fertilizer Classification"}
+{"query": "Best slow-release nitrogen source for cotton in black soil?", "intent": "Fertilizer Classification"}
+{"query": "How to improve potassium availability for wheat in sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Which zinc fertilizer works best for rice in alkaline soils?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for bajra in low-phosphorus soil?", "intent": "Fertilizer Classification"}
+{"query": "Best foliar spray for nitrogen-deficient jowar?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the best boron supplement for groundnut in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer schedule for torrdal in drought-prone regions?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK ratio for brinjal in greenhouse conditions?", "intent": "Fertilizer Classification"}
+{"query": "How much gypsum should I apply for cotton in sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "Which biofertilizer is best for rice in flooded conditions?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for maize in low-potassium soil?", "intent": "Fertilizer Classification"}
+{"query": "Best organic nitrogen source for wheat in organic farming?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal manganese supplement for coffee in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for ragi in laterite soil with iron deficiency?", "intent": "Fertilizer Classification"}
+{"query": "Best phosphorus solubilizing bacteria for wheat in calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct sulfur deficiency in groundnut grown in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for rice in zinc-deficient soil?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium chloride alternative for brinjal in saline soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the best copper supplement for coffee in peat soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for jowar in low-nitrogen soil with high temperatures?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK blend for cotton in high-rainfall regions?", "intent": "Fertilizer Classification"}
+{"query": "How much rock phosphate should I use for acidic soil maize?", "intent": "Fertilizer Classification"}
+{"query": "Which biofertilizer improves phosphorus uptake in wheat?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for bajra in zinc-deficient soil?", "intent": "Fertilizer Classification"}
+{"query": "Best organic potassium source for ragi in dryland farming?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal molybdenum supplement for groundnut in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for torrdal in high-pH soil with iron chlorosis?", "intent": "Fertilizer Classification"}
+{"query": "Best nitrogen-fixing bacteria for rice in flooded fields?", "intent": "Fertilizer Classification"}
+{"query": "How to correct boron deficiency in brinjal grown in sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in cold, wet climates?", "intent": "Fertilizer Classification"}
+{"query": "Best foliar spray for magnesium-deficient coffee?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal NPK for maize in loamy soil with moderate rain?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for cotton in heavy clay with poor drainage?", "intent": "Fertilizer Classification"}
+{"query": "Best organic phosphorus source for jowar in arid zones?", "intent": "Fertilizer Classification"}
+{"query": "How much potash should I apply for groundnut in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Which sulfur fertilizer is best for wheat in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for rice in iron-toxic conditions?", "intent": "Fertilizer Classification"}
+{"query": "Best calcium nitrate application for brinjal in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the best zinc chelate for maize in high-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for bajra in low-organic-matter soil?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK ratio for ragi in red laterite soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct manganese deficiency in wheat grown in calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for torrdal in phosphorus-fixing soil?", "intent": "Fertilizer Classification"}
+{"query": "Best boron spray for coffee in sandy, low-organic-matter soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal magnesium sulfate dose for cotton in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for jowar in drought-prone, low-nitrogen soil?", "intent": "Fertilizer Classification"}
+{"query": "Best slow-release urea for rice in high-leaching soils?", "intent": "Fertilizer Classification"}
+{"query": "How much single super phosphate (SSP) for groundnut in neutral soil?", "intent": "Fertilizer Classification"}
+{"query": "Which potassium-magnesium fertilizer is best for wheat?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for maize in copper-deficient soil?", "intent": "Fertilizer Classification"}
+{"query": "Best organic iron chelate for brinjal in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal ammonium sulfate rate for cotton in sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for bajra in high-temperature, low-moisture conditions?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK for ragi in zinc-deficient red soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct calcium deficiency in torrdal grown in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for coffee in high-rainfall, acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Best molybdenum supplement for wheat in low-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal potassium sulfate dose for jowar in saline soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for rice in manganese-toxic flooded fields?", "intent": "Fertilizer Classification"}
+{"query": "Best boron fertilizer for groundnut in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "How much dolomite lime should I apply for maize in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Which NPK is best for brinjal in high-humidity conditions?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for cotton in low-sulfur soil?", "intent": "Fertilizer Classification"}
+{"query": "Best organic potassium source for wheat in organic systems?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal zinc sulfate foliar spray for rice?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for bajra in phosphorus-fixing clay soil?", "intent": "Fertilizer Classification"}
+{"query": "Best magnesium supplement for ragi in lateritic soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct sulfur deficiency in torrdal grown in sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for coffee in low-magnesium soil?", "intent": "Fertilizer Classification"}
+{"query": "Best iron chelate for wheat in high-pH calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal NPK for jowar in drought-affected regions?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for rice in boron-deficient flooded fields?", "intent": "Fertilizer Classification"}
+{"query": "Best copper sulfate application for groundnut in peat soil?", "intent": "Fertilizer Classification"}
+{"query": "How much gypsum for cotton in sodic-saline soil?", "intent": "Fertilizer Classification"}
+{"query": "Which biofertilizer is best for maize in low-nitrogen soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for brinjal in high-rainfall zones?", "intent": "Fertilizer Classification"}
+{"query": "Best manganese chelate for wheat in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal potassium nitrate dose for ragi in dry soils?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for torrdal in molybdenum-deficient soil?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK blend for coffee in volcanic ash soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct zinc deficiency in jowar grown in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for rice in high-iron laterite soil?", "intent": "Fertilizer Classification"}
+{"query": "Best boron foliar spray for cotton in alkaline conditions?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal urea dose for maize in loamy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for bajra in low-sulfur, high-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "Best phosphorus solubilizer for wheat in calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "How much Epsom salt should I apply for brinjal in magnesium-deficient soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for groundnut in low-calcium sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK for ragi in low-fertility red soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal ammonium phosphate dose for torrdal in neutral soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for coffee in high-rainfall, leached-out soil?", "intent": "Fertilizer Classification"}
+{"query": "Best iron sulfate application for wheat in high-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct copper deficiency in rice grown in peat soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for jowar in low-phosphorus sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium-magnesium sulfate for cotton in saline soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal DAP dose for maize in alluvial soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for brinjal in high-temperature, low-rainfall areas?", "intent": "Fertilizer Classification"}
+{"query": "Best zinc chelate foliar spray for bajra in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "How much borax should I apply for groundnut in boron-deficient soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in sulfur-deficient loam?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK ratio for ragi in low-nitrogen laterite soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal gypsum dose for torrdal in sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for coffee in high-altitude, acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Best manganese sulfate foliar spray for wheat in calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct molybdenum deficiency in rice grown in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for jowar in low-potassium sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium chloride alternative for cotton in saline conditions?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal rock phosphate dose for maize in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for brinjal in high-humidity coastal soil?", "intent": "Fertilizer Classification"}
+{"query": "Best copper chelate for bajra in peat soil?", "intent": "Fertilizer Classification"}
+{"query": "How much elemental sulfur should I apply for groundnut in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in zinc-deficient loam?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK for ragi in phosphorus-fixing red soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal muriate of potash dose for torrdal in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for coffee in low-phosphorus volcanic soil?", "intent": "Fertilizer Classification"}
+{"query": "Best iron chelate foliar spray for wheat in high-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct sulfur deficiency in rice grown in sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for jowar in low-calcium black soil?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium sulfate dose for cotton in saline-sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal urea dose for maize in well-drained loam?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for brinjal in low-magnesium laterite soil?", "intent": "Fertilizer Classification"}
+{"query": "Best zinc sulfate foliar spray for bajra in alkaline conditions?", "intent": "Fertilizer Classification"}
+{"query": "How much borax to apply for groundnut in boron-deficient sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in low-sulfur clay soil?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK ratio for ragi in low-fertility lateritic soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal gypsum application for torrdal in sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for coffee in high-rainfall, leached volcanic soil?", "intent": "Fertilizer Classification"}
+{"query": "Best manganese chelate foliar spray for wheat in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct copper deficiency in rice grown in peat soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for jowar in low-phosphorus sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium-magnesium sulfate for cotton in saline conditions?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal DAP dose for maize in alluvial soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for brinjal in high-temperature, low-rainfall zones?", "intent": "Fertilizer Classification"}
+{"query": "Best zinc chelate foliar spray for bajra in high-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "How much borax to apply for groundnut in boron-deficient sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in sulfur-deficient loam?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK ratio for ragi in low-nitrogen laterite soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal gypsum dose for torrdal in sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for coffee in high-altitude, acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Best manganese sulfate foliar spray for wheat in calcareous soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct molybdenum deficiency in rice grown in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for jowar in low-potassium sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium chloride alternative for cotton in saline conditions?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal rock phosphate dose for maize in acidic soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for brinjal in high-humidity coastal soil?", "intent": "Fertilizer Classification"}
+{"query": "Best copper chelate for bajra in peat soil?", "intent": "Fertilizer Classification"}
+{"query": "How much elemental sulfur to apply for groundnut in alkaline soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for wheat in zinc-deficient loam?", "intent": "Fertilizer Classification"}
+{"query": "Best NPK for ragi in phosphorus-fixing red soil?", "intent": "Fertilizer Classification"}
+{"query": "What\u00e2\u20ac\u2122s the ideal muriate of potash dose for torrdal in sandy soil?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer for coffee in low-phosphorus volcanic soil?", "intent": "Fertilizer Classification"}
+{"query": "Best iron chelate foliar spray for wheat in high-pH soil?", "intent": "Fertilizer Classification"}
+{"query": "How to correct sulfur deficiency in rice grown in sandy loam?", "intent": "Fertilizer Classification"}
+{"query": "Fertilizer recommendation for jowar in low-calcium black soil?", "intent": "Fertilizer Classification"}
+{"query": "Best potassium sulfate dose for cotton in saline-sodic soil?", "intent": "Fertilizer Classification"}
+{"query": "What will be the yield of wheat per hectare?", "intent": "Yield Prediction"}
+{"query": "Predict maize yield for my farm.", "intent": "Yield Prediction"}
+{"query": "How much rice can I harvest this season?", "intent": "Yield Prediction"}
+{"query": "Estimate cotton yield based on my inputs.", "intent": "Yield Prediction"}
+{"query": "Yield forecast for bajra in sandy soil.", "intent": "Yield Prediction"}
+{"query": "What\u00e2\u20ac\u2122s the expected yield of brinjal with drip irrigation?", "intent": "Yield Prediction"}
+{"query": "Can you predict groundnut yield for clay soil?", "intent": "Yield Prediction"}
+{"query": "Expected jowar yield with NPK fertilizers.", "intent": "Yield Prediction"}
+{"query": "Forecast ragi yield in low rainfall areas.", "intent": "Yield Prediction"}
+{"query": "What\u00e2\u20ac\u2122s the average torrdal yield per hectare?", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield for high-altitude farms.", "intent": "Yield Prediction"}
+{"query": "How much wheat can I grow with urea and irrigation?", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in black soil with 500mm rain.", "intent": "Yield Prediction"}
+{"query": "Yield prediction for rice with 30\u00c2\u00b0C average temperature.", "intent": "Yield Prediction"}
+{"query": "What\u00e2\u20ac\u2122s the brinjal yield potential in loamy soil?", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield if I use organic fertilizer.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield in drought conditions.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield with sprinkler irrigation.", "intent": "Yield Prediction"}
+{"query": "How much jowar can I harvest in 90 days?", "intent": "Yield Prediction"}
+{"query": "Yield estimate for ragi in red soil.", "intent": "Yield Prediction"}
+{"query": "What\u00e2\u20ac\u2122s the torrdal yield with 200mm rainfall?", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in shaded plantations.", "intent": "Yield Prediction"}
+{"query": "Wheat yield forecast for alluvial soil.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield with DAP and flood irrigation.", "intent": "Yield Prediction"}
+{"query": "How much rice per hectare in saline soil?", "intent": "Yield Prediction"}
+{"query": "Brinjal yield prediction for greenhouse farming.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in high-temperature zones.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with no fertilizer.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in sandy loam.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for rainfed farming.", "intent": "Yield Prediction"}
+{"query": "How much ragi can I grow in 100 days?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for acidic soil.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield with micronutrient sprays.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential in low-nitrogen soil.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield with 25\u00c2\u00b0C and 600mm rain.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for waterlogged fields.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with daily drip irrigation.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in alkaline soil.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield in semi-arid regions.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield with gypsum application.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for 120-day maturity.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in laterite soil?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast with 150mm rainfall.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in volcanic soil.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with zinc supplementation.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in clay-loam with 30\u00c2\u00b0C.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for direct seeding.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with mulching and fertigation.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in high-humidity areas.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with compost only.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in calcareous soil.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for low-phosphorus soil.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare with organic farming?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for 80-day harvest.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in terraced farms.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with sulfur-coated urea.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in drought-resistant varieties.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for System of Rice Intensification (SRI).", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with trellising and drip irrigation.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in black cotton soil.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with 400mm annual rain.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield with boron sprays.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for intercropping with pulses.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in zinc-deficient soil?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for no-till farming.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield under shade nets.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with biochar amendment.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in high-CO2 conditions.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for hybrid varieties.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with vermicompost and mulching.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in precision farming.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with deficit irrigation.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in ridge planting.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for saline-affected soil.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare with sprinklers?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for raised beds.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in polyhouse conditions.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with foliar NPK sprays.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield under hail net protection.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for aerobic cultivation.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with CO2 enrichment.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in zero-tillage systems.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with 35\u00c2\u00b0C daytime temps.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in sandy soil with 200mm rain.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for heavy metal-contaminated soil.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in hydroponics?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for 100% organic inputs.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield under artificial lighting.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with seaweed extracts.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in reclaimed wasteland.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for deepwater varieties.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with mycorrhizal inoculation.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in regenerative agriculture.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with 45-day dry spells.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in reclaimed sodic soil.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for biofortified varieties.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare with Azolla cover?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for intercropped fields.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in vertical farming.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with nano-fertilizers.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in climate-smart villages.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for floating cultivation.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with silicon supplementation.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in agroforestry systems.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield under heat stress (40\u00c2\u00b0C+).", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield with PGPR inoculants.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for drought-tolerant hybrids.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in aquaponics?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for saline irrigation.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in smart greenhouses.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with IoT-based monitoring.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in degraded land restoration.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for tidal wetlands.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with bio-stimulant sprays.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in conservation agriculture.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with 50% water reduction.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in reclaimed mining soil.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for high-density planting.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare with fertigation?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for urban rooftop farming.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield under LED grow lights.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with drone-based nutrient mapping.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in carbon-rich soils.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for salt-tolerant GMOs.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with automated climate control.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in desert farming.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with 70% humidity.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in reclaimed peatlands.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for AI-driven precision agriculture.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in aeroponics?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for hydroponic towers.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in Martian soil simulants.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with CRISPR-edited varieties.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in phytoremediation fields.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for lunar greenhouse trials.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with quantum dot sensors.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in Arctic grow domes.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield in zero-gravity experiments.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in bioengineered soil.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for blockchain-tracked farms.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in underground farms?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for algae-based fertilizers.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in AI-optimized microclimates.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with robotic pollinators.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in floating ocean farms.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for desert hydroponics.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with 3D-printed soil scaffolds.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in space station modules.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with fusion-powered grow lights.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in synthetic ecosystems.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for nanotech-enhanced soils.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in time-release nutrient gels?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for cryo-preserved seeds.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in holographic climate simulators.", "intent": "Yield Prediction"}
+{"query": "Wheat yield potential with gene-drive optimized traits.", "intent": "Yield Prediction"}
+{"query": "Estimate maize yield in atmospheric CO2 scrubbers.", "intent": "Yield Prediction"}
+{"query": "Rice yield prediction for antigravity farming.", "intent": "Yield Prediction"}
+{"query": "Brinjal yield with photosynthetic efficiency boosters.", "intent": "Yield Prediction"}
+{"query": "Forecast cotton yield in terraformed Martian colonies.", "intent": "Yield Prediction"}
+{"query": "Predict bajra yield with self-repairing soil nanobots.", "intent": "Yield Prediction"}
+{"query": "Expected groundnut yield in quantum-entangled growth chambers.", "intent": "Yield Prediction"}
+{"query": "Jowar yield estimate for AI-generated weather patterns.", "intent": "Yield Prediction"}
+{"query": "How much ragi per hectare in zero-point energy farms?", "intent": "Yield Prediction"}
+{"query": "Torrdal yield forecast for telepathic irrigation systems.", "intent": "Yield Prediction"}
+{"query": "Predict coffee yield in 4D-printed agro-spheres.", "intent": "Yield Prediction"}
+{"query": "Which crop is best for my farm?", "intent": "Crop Recommendation"}
+{"query": "What should I grow this season?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for sandy soil.", "intent": "Crop Recommendation"}
+{"query": "Best crop for low rainfall areas?", "intent": "Crop Recommendation"}
+{"query": "What grows well in hot climates?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for clay soil.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs less water?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in acidic soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for high humidity?", "intent": "Crop Recommendation"}
+{"query": "Recommend a drought-resistant crop.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for loamy soil?", "intent": "Crop Recommendation"}
+{"query": "Crop for cold weather?", "intent": "Crop Recommendation"}
+{"query": "What grows fast in rainy seasons?", "intent": "Crop Recommendation"}
+{"query": "Best crop for poor soil?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high pH soil.", "intent": "Crop Recommendation"}
+{"query": "What can I grow with limited fertilizer?", "intent": "Crop Recommendation"}
+{"query": "Crop for dryland farming?", "intent": "Crop Recommendation"}
+{"query": "Best crop for coastal regions?", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for alkaline soil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for high altitude.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits black soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in shade?", "intent": "Crop Recommendation"}
+{"query": "Best crop for sandy loam?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for low nitrogen soil.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for alluvial soil?", "intent": "Crop Recommendation"}
+{"query": "Crop for heavy rainfall areas?", "intent": "Crop Recommendation"}
+{"query": "Best crop for small farms?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in winter?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for rocky soil.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs less care?", "intent": "Crop Recommendation"}
+{"query": "What grows in waterlogged soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for organic farming?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high potassium soil.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for terrace farming?", "intent": "Crop Recommendation"}
+{"query": "Crop for arid zones?", "intent": "Crop Recommendation"}
+{"query": "Best crop for red soil?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in summer?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low phosphorus.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits saline soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in partial sun?", "intent": "Crop Recommendation"}
+{"query": "Best crop for hilly areas?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for backyard gardens.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for volcanic soil?", "intent": "Crop Recommendation"}
+{"query": "Crop for high-temperature regions?", "intent": "Crop Recommendation"}
+{"query": "Best crop for intercropping?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in containers?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low humidity.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs minimal rainfall?", "intent": "Crop Recommendation"}
+{"query": "What grows in marshy land?", "intent": "Crop Recommendation"}
+{"query": "Best crop for silty soil?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for urban farming.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for raised beds?", "intent": "Crop Recommendation"}
+{"query": "Crop for short growing seasons?", "intent": "Crop Recommendation"}
+{"query": "Best crop for livestock feed?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in acidic clay?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for high winds.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits peat soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in greenhouses?", "intent": "Crop Recommendation"}
+{"query": "Best crop for erosion control?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for low sunlight.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for hydroponics?", "intent": "Crop Recommendation"}
+{"query": "Crop for high organic matter soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for clay loam?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in alkaline clay?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for monsoon season.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs high nitrogen?", "intent": "Crop Recommendation"}
+{"query": "What grows in limestone soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for permaculture?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for poor drainage.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for vertical farming?", "intent": "Crop Recommendation"}
+{"query": "Crop for frost-prone areas?", "intent": "Crop Recommendation"}
+{"query": "Best crop for silty clay?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in salty water?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for no-till farming.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits gravelly soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in dry climates?", "intent": "Crop Recommendation"}
+{"query": "Best crop for sandy clay?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for low potassium.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for aquaponics?", "intent": "Crop Recommendation"}
+{"query": "Crop for high-altitude farming?", "intent": "Crop Recommendation"}
+{"query": "Best crop for acidic sandy soil?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in wetlands?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for windy areas.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs low maintenance?", "intent": "Crop Recommendation"}
+{"query": "What grows in chalky soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for terrace gardens?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for heavy clay.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for rooftop farming?", "intent": "Crop Recommendation"}
+{"query": "Crop for short-duration rainfall?", "intent": "Crop Recommendation"}
+{"query": "Best crop for reclaimed land?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in saline-alkaline soil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low calcium.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits sandy gravel?", "intent": "Crop Recommendation"}
+{"query": "What grows well in partial shade?", "intent": "Crop Recommendation"}
+{"query": "Best crop for erosion-prone slopes?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high magnesium.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for container gardening?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-fertility soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for all-year-round?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in volcanic ash?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for high sulfur.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs less space?", "intent": "Crop Recommendation"}
+{"query": "What grows in gypsum-rich soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for backyard plots?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for low iron.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for hydroponic towers?", "intent": "Crop Recommendation"}
+{"query": "Crop for high-rainfall tropics?", "intent": "Crop Recommendation"}
+{"query": "Best crop for compacted soil?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in limestone?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low zinc.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits mucky soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in dry sandy soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for community gardens?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high boron.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for raised garden beds?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-moisture soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for quick harvest?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in peaty soil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low copper.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs less weeding?", "intent": "Crop Recommendation"}
+{"query": "What grows in serpentine soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for school gardens?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high sodium.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for hanging baskets?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-organic-matter soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for beginner farmers?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in slag soil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low manganese.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits stony soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in dry clay?", "intent": "Crop Recommendation"}
+{"query": "Best crop for home consumption?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high chloride.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for small balconies?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-phosphorus soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for quick turnover?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in gypsum soil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low molybdenum.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs no pesticides?", "intent": "Crop Recommendation"}
+{"query": "What grows in slag heaps?", "intent": "Crop Recommendation"}
+{"query": "Best crop for urban rooftops?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high aluminum.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for window boxes?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-sulfur soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for survival gardening?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in mine tailings?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low selenium.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits hardpan soil?", "intent": "Crop Recommendation"}
+{"query": "What grows well in compacted clay?", "intent": "Crop Recommendation"}
+{"query": "Best crop for microgreens?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high nickel.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for indoor farming?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-calcium soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for quick cash?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in coal spoil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low cobalt.", "intent": "Crop Recommendation"}
+{"query": "Which crop needs no tilling?", "intent": "Crop Recommendation"}
+{"query": "What grows in oil-contaminated soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for apartment dwellers?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high cadmium.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s good for terrariums?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-magnesium soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for guerrilla gardening?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in brick dust?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low chromium.", "intent": "Crop Recommendation"}
+{"query": "Which crop suits concrete rubble?", "intent": "Crop Recommendation"}
+{"query": "What grows well in polluted soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for tiny gardens?", "intent": "Crop Recommendation"}
+{"query": "Suggest a crop for high lead.", "intent": "Crop Recommendation"}
+{"query": "What\u00e2\u20ac\u2122s ideal for office desks?", "intent": "Crop Recommendation"}
+{"query": "Crop for low-sodium soil?", "intent": "Crop Recommendation"}
+{"query": "Best crop for post-disaster farming?", "intent": "Crop Recommendation"}
+{"query": "What can I grow in ash soil?", "intent": "Crop Recommendation"}
+{"query": "Recommend a crop for low arsenic.", "intent": "Crop Recommendation"}
+{"query": "What's wrong with my plant? Here's a photo.", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this plant disease from a picture?", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plant's leaves turning yellow? [attached image]", "intent": "Image Plant Disease Detection"}
+{"query": "Help! My crops have spots. What is this?", "intent": "Image Plant Disease Detection"}
+{"query": "What disease does this plant have? Sending photo.", "intent": "Image Plant Disease Detection"}
+{"query": "Is my tomato plant sick? Here's a close-up.", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell me what's harming my plant? [image attached]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are there holes in my leaves? Photo included.", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s causing my plant to wilt? Sending picture.", "intent": "Image Plant Disease Detection"}
+{"query": "Are these brown spots a fungus? Here's a photo.", "intent": "Image Plant Disease Detection"}
+{"query": "My plant looks sick. Can you diagnose it?", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s eating my plant? [image attached]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plant\u00e2\u20ac\u2122s leaves curling? Photo here.", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a nutrient deficiency or disease? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you check if my plant has blight? Sending pic.", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this white powder on my leaves? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Help! My plant is dying. What\u00e2\u20ac\u2122s the cause?", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my fruits rotting? Here\u00e2\u20ac\u2122s a picture.", "intent": "Image Plant Disease Detection"}
+{"query": "Is this plant contagious? [attached image]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this bug on my plant? Photo included.", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this leaf disease? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my flowers turning black? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this rust or mildew? Sending a picture.", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s causing these strange patterns? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "My plant has sticky leaves. What\u00e2\u20ac\u2122s wrong?", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose this plant problem? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my stems discolored? Here\u00e2\u20ac\u2122s a pic.", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a viral infection? [image attached]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this mold on my soil? Photo here.", "intent": "Image Plant Disease Detection"}
+{"query": "Help! My plant has weird growths. [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is pest damage? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves falling off? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this plant salvageable? Sending picture.", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this web-like stuff on my plant?", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this root problem? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my vegetables deformed? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a bacterial infection? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s causing these yellow streaks? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you spot the issue with my plant? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Why is my plant oozing sap? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this normal or a disease? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this black stuff on my stems? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose from a leaf photo?", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my buds dying? [image attached]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a sign of overwatering? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this orange dust on my plant?", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell what\u00e2\u20ac\u2122s killing my plant? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves turning purple? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a soil-borne disease? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this fuzz on my flowers? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this fruit rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my seedlings dying? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a fungal issue? Sending picture.", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this scaly stuff on my bark? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s spots? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves brittle? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this pest or disease damage? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this white stuff on my roots? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if my plant is poisoned? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my vines withering? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this sunburn or disease? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this hole in my stem? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this plant virus? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves turning brown? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a nutrient issue? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this slime on my plant? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s decay? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my petals spotted? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this root rot? Sending picture.", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this larvae on my leaves? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is blight? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a mite infestation? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this gray mold? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this leaf miner damage? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my shoots dying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a bacterial spot? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this webbing between leaves? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s blisters? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves mottled? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a thrip problem? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this powdery residue? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is anthracnose? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants covered in dew? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a nematode issue? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this black mold? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this gall? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves skeletonized? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a scale insect? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this orange fungus? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s canker? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my buds rotting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a leafhopper damage? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this sooty mold? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is verticillium wilt? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves blistered? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a mealybug infestation? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this whitefly damage? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this leaf scorch? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants oozing? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a cutworm problem? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this bacterial ooze? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s galls? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves cupping? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a spider mite issue? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this downy mildew? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is fire blight? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a lace bug damage? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this leaf curl? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this root knot? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves yellowing? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a psyllid problem? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this rust fungus? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s wilt? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves dropping? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a leaf spot disease? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this bacterial speck? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is phytophthora? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants wilting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a caterpillar damage? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this crown rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this damping off? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves distorted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a white rust issue? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this stem rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s mottle? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves necrotic? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a leaf blight? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this bacterial wilt? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is fusarium? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants yellowing? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a nematode damage? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this root rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this smut? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves stippled? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a virus? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this black spot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s chlorosis? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves puckered? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a fungal spot? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this powdery mildew? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is botrytis? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants dying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a pest or a disease? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this leaf drop? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this canker? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves spotted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a bacterial canker? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this stem canker? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s necrosis? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves wilting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a fungal canker? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this twig dieback? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is armillaria? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a root disease? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this wood rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this heart rot? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my leaves yellow? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a sapwood rot? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this butt rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s decay? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my trees dying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a white rot? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this brown rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is soft rot? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants rotting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a dry rot? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this wet rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this cubical rot? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my logs decaying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a stringy rot? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this pocket rot? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s hollow? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my stumps rotting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a sap stain? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this blue stain? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is mold? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants moldy? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a mildew? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this sooty mold? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this yeast? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants fermenting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a slime mold? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this lichen? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s algae? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants slimy? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a biofilm? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this bacterial slime? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is a virus? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a viroid? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this phytoplasma? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this spiroplasma? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants yellowing? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a fastidious bacterium? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this rickettsia? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s mycoplasma? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants dying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a protozoan? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this nematode? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is a worm? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants wilting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a flatworm? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this roundworm? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this hookworm? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a pinworm? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this tapeworm? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s fluke? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants rotting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a thorny-headed worm? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this hairworm? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is a leech? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants dying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a snail? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this slug? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this clam? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants chewed? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a mussel? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this oyster? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s scallop? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants slimy? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a squid? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this octopus? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is a cuttlefish? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a nautilus? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this ammonite? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you identify this belemnite? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants dying? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a crinoid? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this blastoid? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you diagnose my plant\u00e2\u20ac\u2122s cystoid? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants wilting? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Is this a edrioasteroid? [pic]", "intent": "Image Plant Disease Detection"}
+{"query": "What\u00e2\u20ac\u2122s this asteroid? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "Can you tell if this is a ophiuroid? [photo]", "intent": "Image Plant Disease Detection"}
+{"query": "Why are my plants stunted? [image]", "intent": "Image Plant Disease Detection"}
+{"query": "What is the meaning of life?", "intent": "Unclear"}
+{"query": "How do I fix my fridge?", "intent": "Unclear"}
+{"query": "Why is the sky blue?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the weather like on Mars?", "intent": "Unclear"}
+{"query": "Can you order pizza?", "intent": "Unclear"}
+{"query": "How to tie a tie?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best phone in 2024?", "intent": "Unclear"}
+{"query": "Explain quantum physics.", "intent": "Unclear"}
+{"query": "Who won the World Cup in 1998?", "intent": "Unclear"}
+{"query": "How to make a paper airplane?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the capital of Antarctica?", "intent": "Unclear"}
+{"query": "Why did my dog bark at 3 AM?", "intent": "Unclear"}
+{"query": "How many stars are there?", "intent": "Unclear"}
+{"query": "Can you teach me French?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the recipe for lasagna?", "intent": "Unclear"}
+{"query": "How to build a rocket?", "intent": "Unclear"}
+{"query": "Why do cats purr?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the fastest car?", "intent": "Unclear"}
+{"query": "How to become a millionaire?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best movie ever?", "intent": "Unclear"}
+{"query": "How do magnets work?", "intent": "Unclear"}
+{"query": "Why is my plant...", "intent": "Unclear"}
+{"query": "Can you sing a song?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the square root of pi?", "intent": "Unclear"}
+{"query": "How to train a dragon?", "intent": "Unclear"}
+{"query": "Why are bananas curved?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best gaming PC?", "intent": "Unclear"}
+{"query": "How to make a website?", "intent": "Unclear"}
+{"query": "Why do birds fly south?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the meaning of 'serendipity'?", "intent": "Unclear"}
+{"query": "How to knit a sweater?", "intent": "Unclear"}
+{"query": "Why is my computer slow?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the tallest mountain?", "intent": "Unclear"}
+{"query": "How to make a robot?", "intent": "Unclear"}
+{"query": "Why do we dream?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best diet for weight loss?", "intent": "Unclear"}
+{"query": "How to write a novel?", "intent": "Unclear"}
+{"query": "Why is the ocean salty?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best way to learn guitar?", "intent": "Unclear"}
+{"query": "How to fix a leaky faucet?", "intent": "Unclear"}
+{"query": "Why do we yawn?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best smartphone camera?", "intent": "Unclear"}
+{"query": "How to meditate?", "intent": "Unclear"}
+{"query": "Why is my cat staring at me?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best way to sleep faster?", "intent": "Unclear"}
+{"query": "How to paint a portrait?", "intent": "Unclear"}
+{"query": "Why is my internet slow?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best pizza topping?", "intent": "Unclear"}
+{"query": "How to solve a Rubik\u00e2\u20ac\u2122s cube?", "intent": "Unclear"}
+{"query": "Why do we have leap years?", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best way to boil an egg?", "intent": "Unclear"}
+{"query": "How to grow a...", "intent": "Unclear"}
+{"query": "Why is my...", "intent": "Unclear"}
+{"query": "What\u00e2\u20ac\u2122s the best...", "intent": "Unclear"}
+{"query": "Explain gravity in chicken language.", "intent": "Unclear"}
+{"query": "What would a cow post on Instagram?", "intent": "Unclear"}
+{"query": "How do birds talk to each other?", "intent": "Unclear"}
+{"query": "Make a pun about tomatoes.", "intent": "Unclear"}
+{"query": "Let\u2019s play a game.", "intent": "Unclear"}
+{"query": "Describe the life of a fly.", "intent": "Unclear"}
+{"query": "Create a farm-themed rap.", "intent": "Unclear"}
+{"query": "Tell a bedtime story for plants.", "intent": "Unclear"}
+{"query": "Talk like a pirate!", "intent": "Unclear"}
+{"query": "Can you tell the future?", "intent": "Unclear"}
+{"query": "Say something funny.", "intent": "Unclear"}
+{"query": "Tell a scary story about carrots.", "intent": "Unclear"}
+{"query": "Write a story with no vowels.", "intent": "Unclear"}
+{"query": "Be a DJ for rice grains.", "intent": "Unclear"}
+{"query": "Draw me a cat.", "intent": "Unclear"}
+{"query": "Write a cereal commercial.", "intent": "Unclear"}
+{"query": "Can you dance?", "intent": "Unclear"}
+{"query": "Be a coach for a tomato team.", "intent": "Unclear"}
+{"query": "Do tractors dream?", "intent": "Unclear"}
+{"query": "Pretend you're a tree whisperer.", "intent": "Unclear"}
+{"query": "Translate emojis into plant language.", "intent": "Unclear"}
+{"query": "Act like a weather-forecasting duck.", "intent": "Unclear"}
+{"query": "What do you think of aliens?", "intent": "Unclear"}
+{"query": "What would soil say on a podcast?", "intent": "Unclear"}
+{"query": "Write a song about tractors.", "intent": "Unclear"}
+{"query": "Beep boop, are you a robot?", "intent": "Unclear"}
+{"query": "Can you paint something?", "intent": "Unclear"}
+{"query": "Be a stand-up comedian cow.", "intent": "Unclear"}
+{"query": "What\u2019s your favorite leaf?", "intent": "Unclear"}
+{"query": "Say the alphabet backwards.", "intent": "Unclear"}
+{"query": "Do a backflip!", "intent": "Unclear"}
+{"query": "Draw a robot scarecrow with words.", "intent": "Unclear"}
+{"query": "What if tractors ran on laughter?", "intent": "Unclear"}
+{"query": "Write a sonnet about weeds.", "intent": "Unclear"}
+{"query": "Do you like singing pigs?", "intent": "Unclear"}
+{"query": "Pretend you're a carrot.", "intent": "Unclear"}
+{"query": "Can you code in chicken?", "intent": "Unclear"}
+{"query": "Write a rap about soil.", "intent": "Unclear"}
+{"query": "What if clouds had feelings?", "intent": "Unclear"}
+{"query": "Make a pun with \u201cplow\u201d.", "intent": "Unclear"}
+{"query": "Do aliens like rice?", "intent": "Unclear"}
+{"query": "Sing me a song.", "intent": "Unclear"}
+{"query": "Write a love poem for a plant.", "intent": "Unclear"}
+{"query": "Tell a love story between a tree and a cloud.", "intent": "Unclear"}
+{"query": "Describe a rice fashion show.", "intent": "Unclear"}
+{"query": "Write a TV ad for mud.", "intent": "Unclear"}
+{"query": "Make me laugh.", "intent": "Unclear"}
+{"query": "Compose a haiku.", "intent": "Unclear"}
+{"query": "Give me a math joke.", "intent": "Unclear"}
+{"query": "Invent a farming game.", "intent": "Unclear"}
+{"query": "Invent a dance for worms.", "intent": "Unclear"}
+{"query": "Design a flag for the paddy field.", "intent": "Unclear"}
+{"query": "Imagine a world of flying sheep.", "intent": "Unclear"}
+{"query": "Write a comedy script set in a barn.", "intent": "Unclear"}
+{"query": "Describe a fantasy rice kingdom.", "intent": "Unclear"}
+{"query": "What's your favorite movie?", "intent": "Unclear"}
+{"query": "Act like a goat.", "intent": "Unclear"}
+{"query": "Do you like pizza?", "intent": "Unclear"}
+{"query": "Explain the universe in emojis.", "intent": "Unclear"}
+{"query": "What if cows could talk?", "intent": "Unclear"}
+{"query": "Invent a fairy tale.", "intent": "Unclear"}
+{"query": "Write a poem about robots.", "intent": "Unclear"}
+{"query": "Be a radio host for plants.", "intent": "Unclear"}
+{"query": "Write a sitcom scene on Mars.", "intent": "Unclear"}
+{"query": "What would a tree say if it could talk?", "intent": "Unclear"}
+{"query": "Recite Shakespeare.", "intent": "Unclear"}
+{"query": "Who let the dogs out?", "intent": "Unclear"}
+{"query": "Design a robot scarecrow.", "intent": "Unclear"}
+{"query": "Impress me.", "intent": "Unclear"}
+{"query": "What if corn could text?", "intent": "Unclear"}
+{"query": "Make an award ceremony for bugs.", "intent": "Unclear"}
+{"query": "Translate hello into Martian.", "intent": "Unclear"}
+{"query": "Make me a meme about potatoes.", "intent": "Unclear"}
+{"query": "Help me out.", "intent": "Unclear"}
+{"query": "Invent a farming superhero.", "intent": "Unclear"}
+{"query": "Make a nursery rhyme about tractors.", "intent": "Unclear"}
+{"query": "Draw a square using words.", "intent": "Unclear"}
+{"query": "What does a worm dream about?", "intent": "Unclear"}
+{"query": "Be a news anchor for soil.", "intent": "Unclear"}
+{"query": "Be a motivational speaker for seeds.", "intent": "Unclear"}
+{"query": "Can you become a chicken?", "intent": "Unclear"}
+{"query": "Say something mysterious.", "intent": "Unclear"}
+{"query": "Write a limerick.", "intent": "Unclear"}
+{"query": "What\u2019s a joke farmers tell?", "intent": "Unclear"}
+{"query": "Give me a fun fact about zombies.", "intent": "Unclear"}
+{"query": "Make a meme about cucumbers.", "intent": "Unclear"}
+{"query": "Act like a weather report for aliens.", "intent": "Unclear"}
+{"query": "Invent a new holiday.", "intent": "Unclear"}
+{"query": "What\u2019s the capital of Mars?", "intent": "Unclear"}
