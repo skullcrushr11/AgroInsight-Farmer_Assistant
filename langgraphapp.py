@@ -26,6 +26,9 @@ import sys
 import time
 from datetime import datetime, timedelta
 from collections import Counter
+# Import transformers and PEFT for the intent classifier
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from peft import PeftModel
 
 # Translation helper
 translator = Translator()
@@ -349,13 +352,123 @@ LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 SMALL_MODEL = "falcon3-10b-instruct"
 LARGE_MODEL = "falcon3-10b-instruct"
 
-# --- Disease Detection Classes ---
+# --- Intent Classification Model ---
+@st.cache_resource
+def load_intent_classifier():
+    """Load the fine-tuned DistilBERT model with LoRA adapters for intent classification"""
+    try:
+        # Define intents for the DistilBERT model
+        INTENTS = [
+            "General Farming Question",
+            "Fertilizer Classification", 
+            "Crop Recommendation",
+            "Yield Prediction",
+            "Image Plant Disease Detection",
+            "Unclear"
+        ]
+        
+        # Get current directory and model path
+        intent_dir = os.path.join(os.getcwd(), "intent_classification")
+        model_path = os.path.join(intent_dir, "distilbert_lora_intent_classifier_final")
+        
+        # Create label mappings
+        id2label = {idx: intent for idx, intent in enumerate(INTENTS)}
+        label2id = {intent: idx for idx, intent in enumerate(INTENTS)}
+        
+        # Load base model and tokenizer
+        base_model_name = "distilbert-base-uncased"
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        model = AutoModelForSequenceClassification.from_pretrained(
+            base_model_name,
+            num_labels=len(INTENTS),
+            id2label=id2label,
+            label2id=label2id
+        )
+        
+        # Load the PEFT/LoRA adapters
+        model = PeftModel.from_pretrained(model, model_path)
+        
+        # Set model to evaluation mode
+        model.eval()
+        
+        # Move model to GPU if available
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = model.to(device)
+        
+        logger.info(f"Intent classification model loaded successfully on {device}")
+        return model, tokenizer, id2label, device
+    except Exception as e:
+        logger.error(f"Error loading intent classifier: {e}")
+        return None, None, None, None
+
+# Function to reload the intent classifier
+def reload_intent_classifier():
+    """Reload the intent classifier model"""
+    global intent_classifier
+    st.cache_resource.clear(load_intent_classifier)
+    intent_classifier = load_intent_classifier()
+    return intent_classifier[0] is not None
+
+def predict_intent(text):
+    """Predict intent using the DistilBERT model"""
+    model, tokenizer, id2label, device = intent_classifier
+    
+    if model is None:
+        logger.error("Intent classification model not loaded, falling back to LLM")
+        return query_llm(f"""Classify the user's intent into one of these categories:
+        - Crop Recommendation
+        - Yield Prediction
+        - General Farming Question
+        - Fertilizer Classification
+        - Image Plant Disease Detection
+        - Unclear
+
+        User Message: "{text}"
+
+        Return only the category name.
+        """, model=SMALL_MODEL)
+        
+    # Tokenize input text
+    inputs = tokenizer(
+        text,
+        return_tensors="pt",
+        max_length=128,
+        padding="max_length",
+        truncation=True
+    )
+    
+    # Move inputs to the device
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+    
+    # Get prediction
+    with torch.no_grad():
+        outputs = model(**inputs)
+        logits = outputs.logits
+        predicted_class_id = torch.argmax(logits, dim=1).item()
+    
+    # Map class ID to intent label
+    predicted_intent = id2label[predicted_class_id]
+    
+    # Get confidence scores
+    probabilities = torch.nn.functional.softmax(logits, dim=1)
+    confidence = probabilities[0][predicted_class_id].item()
+    
+    logger.debug(f"Intent prediction: {predicted_intent} with confidence {confidence:.4f}")
+    return predicted_intent
+
+# Global variable for the intent classifier
+intent_classifier = None
+
+# Load models and initialize classifiers
 disease_classes = [
     'cotton_bacterial_blight', 'cotton_curl_virus', 'cotton_fussarium_wilt', 'cotton_healthy',
     'maize_blight', 'maize_common_rust', 'maize_gray_leaf_spot', 'maize_healthy',
     'rice_bacterial_leaf_blight', 'rice_blast', 'rice_brown_spot', 'rice_healthy', 'rice_tungro',
     'wheat_brown_rust', 'wheat_fusarium_head_blight', 'wheat_healthy', 'wheat_mildew', 'wheat_septoria'
 ]
+
+# Initialize the intent classifier
+intent_classifier = load_intent_classifier()
 
 # --- LangGraph State ---
 def create_state():
@@ -414,17 +527,15 @@ def query_llm(prompt, model=SMALL_MODEL, is_formatting=False):
         if not text:
             raise ValueError("Empty response from LLM")
         text = text.replace("<|assistant|>", "").strip()
+        
+        # For formatting prompts, just return the text
         if is_formatting:
             logger.debug(f"LLM ({model}) response (formatting): {text[:100]}...")
             return text
-        valid_states = ["Crop Recommendation", "Yield Prediction", "General Farming Question",
-                       "Fertilizer Classification", "Image Plant Disease Detection", "Unclear"]
-        for state in valid_states:
-            if state in text:
-                logger.debug(f"LLM ({model}) response: {text[:100]}... | Matched state: {state}")
-                return state
-        logger.debug(f"LLM ({model}) response: {text[:100]}... | No valid state found, defaulting to Unclear")
-        return "Unclear"
+            
+        # For regular prompts, return the text as is
+        logger.debug(f"LLM ({model}) response: {text[:100]}...")
+        return text
     except Exception as e:
         logger.error(f"LLM API error ({model}): {e}")
         return f"Error: {str(e)}"
@@ -560,22 +671,11 @@ def intent_classifier_node(state: Dict[str, Any]) -> Dict[str, Any]:
     user_message = state["last_user_message"] if state["last_user_message"] else state["messages"][-1]["content"]
     logger.debug(f"User message for intent classification: {user_message}")
 
-    intent_prompt = f"""Classify the user's intent into one of these categories based on their message:
-    - General Farming Question
-    - Yield Prediction
-    - Crop Recommendation
-    - Fertilizer Classification
-    - Image Plant Disease Detection
-    - Unclear
-
-    User Message: "{user_message}"
-
-    Return only the category name. Make sure you classify the general questions under General Farming Question (General Farming Question can include bajra, rice, bengalgram, cofee, brinjal, corn, cotton, groundnut, jowar, ragi, torrdal, wheat etc).
-    """
-    intent = query_llm(intent_prompt, model=SMALL_MODEL)
+    # Use the fine-tuned DistilBERT model for intent classification
+    intent = predict_intent(user_message)
     logger.debug(f"Detected intent: {intent}")
 
-    if "Error" in intent or intent == "Unclear":
+    if intent == "Unclear":
         state["messages"].append({"role": "assistant", "content": "I'm not sure what you want. Please clarify if you need a crop recommendation, yield prediction, general question, fertilizer classification, or plant disease detection from an image."})
         state["last_user_message"] = None
         state["task"] = None
@@ -1155,6 +1255,25 @@ async def translate_response_back(response, target_lang):
 # --- Streamlit Chat UI ---
 st.title("🌾 Enhanced Farming Chatbot")
 
+# Test intent classifier and show status
+if "intent_classifier_tested" not in st.session_state:
+    st.session_state.intent_classifier_tested = True
+    with st.sidebar:
+        st.subheader("Intent Classifier Status")
+        try:
+            # Test the intent classifier with a simple query
+            test_query = "Tell me about paddy farming"
+            intent = predict_intent(test_query)
+            if intent in ["General Farming Question", "Crop Recommendation", "Yield Prediction", 
+                         "Fertilizer Classification", "Image Plant Disease Detection", "Unclear"]:
+                st.success(f"✅ Intent classifier is working (predicted '{intent}' for test query)")
+            else:
+                st.warning(f"⚠️ Intent classifier returned unexpected result: {intent}")
+        except Exception as e:
+            st.error(f"❌ Intent classifier error: {str(e)}")
+            st.info("Using fallback LLM for intent classification")
+            logger.error(f"Intent classifier test failed: {e}")
+
 # Language selection
 if "selected_language" not in st.session_state:
     st.session_state.selected_language = "en"
@@ -1179,6 +1298,19 @@ with st.sidebar:
         index=list(language_options.values()).index(st.session_state.selected_language)
     )
     st.session_state.selected_language = language_options[selected_language_name]
+    
+    # Add a section for model management
+    st.header("Model Management")
+    
+    # Clear intent classifier cache
+    if st.button("Reload Intent Classifier"):
+        try:
+            if reload_intent_classifier():
+                st.success("Intent classifier reloaded successfully!")
+            else:
+                st.error("Failed to reload intent classifier")
+        except Exception as e:
+            st.error(f"Error reloading intent classifier: {str(e)}")
 
 # Clear model cache
 if st.button("Clear Model Cache"):

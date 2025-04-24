@@ -27,8 +27,8 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
-    "v_lin",
-    "q_lin"
+    "q_lin",
+    "v_lin"
   ],
   "task_type": "SEQ_CLS",
   "trainable_token_indices": null,

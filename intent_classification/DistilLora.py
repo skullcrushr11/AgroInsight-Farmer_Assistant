@@ -72,19 +72,34 @@ dataset_dict = {
 
 # Preprocess dataset
 def preprocess_function(examples):
-    tokenized = tokenizer(examples["query"], truncation=True, padding=True, max_length=128)
-    tokenized["labels"] = examples["intent"]  # Intent is already numeric after ClassLabel conversion
+    # Convert queries to list if they aren't already
+    queries = examples["query"]
+    if isinstance(queries, str):
+        queries = [queries]
+    
+    # Ensure all queries are strings
+    queries = [str(q) if q is not None else "" for q in queries]
+    
+    tokenized = tokenizer(queries, truncation=True, padding=True, max_length=128)
+    
+    # Convert labels to list if necessary
+    if isinstance(examples["intent"], (int, np.integer)):
+        labels = [examples["intent"]]
+    else:
+        labels = examples["intent"]
+    
+    tokenized["labels"] = labels
     return tokenized
 
-# Apply preprocessing
-tokenized_dataset = dataset_dict["train"].map(preprocess_function, batched=True)
-tokenized_dataset_val = dataset_dict["validation"].map(preprocess_function, batched=True)
-tokenized_dataset_test = dataset_dict["test"].map(preprocess_function, batched=True)
+# Apply preprocessing with batched=False first
+tokenized_dataset = dataset_dict["train"].map(preprocess_function, batched=True, remove_columns=dataset_dict["train"].column_names)
+tokenized_dataset_val = dataset_dict["validation"].map(preprocess_function, batched=True, remove_columns=dataset_dict["validation"].column_names)
+tokenized_dataset_test = dataset_dict["test"].map(preprocess_function, batched=True, remove_columns=dataset_dict["test"].column_names)
 
-# Remove unnecessary columns and set format
-for split in [tokenized_dataset, tokenized_dataset_val, tokenized_dataset_test]:
-    split = split.remove_columns(["query", "intent"])
-    split.set_format("torch")
+# Set format for PyTorch
+tokenized_dataset.set_format("torch")
+tokenized_dataset_val.set_format("torch")
+tokenized_dataset_test.set_format("torch")
 
 # Data collator for dynamic padding
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)

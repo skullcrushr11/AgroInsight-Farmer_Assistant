@@ -182,7 +182,14 @@ sample_queries = [
     "What fertilizer for wheat?",
     "Best crop for sandy soil?",
     "How much yield for rice?",
-    "How to treat leaf spots on maize?"
+    "How to treat leaf spots on maize?",
+            "What's the best crop to plant in clay soil?",
+        "How much wheat can I grow per acre in Maharashtra?",
+        "Can you recommend a fertilizer for tomatoes?",
+        "What's causing these yellow spots on my plant leaves?",
+        "How should I prepare my field for the monsoon season?",
+        "My soil is very sandy, what nutrients does it need?",
+        "Can AI help me choose which crop to plant?"
 ]
 for query in sample_queries:
     intent = classify_query(query)
