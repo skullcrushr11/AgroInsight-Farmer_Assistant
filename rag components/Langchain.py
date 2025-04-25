@@ -5,62 +5,62 @@ import requests
 import numpy as np
 from langchain.llms.base import LLM
 from typing import Optional, List
-from sentence_transformers import CrossEncoder  # For reranking
+from sentence_transformers import CrossEncoder  
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 
-# Streamlit UI Title
+
 st.title("🌾 Paddy Farming AI Assistant (LangChain with Reranking)")
 
-# Paths for FAISS vector store and knowledge base
+
 faiss_index_path = "paddy_vector_store_bge.index"
 knowledge_base_path = "paddy_knowledge_base.json"
 
-# Load knowledge base
+
 with open(knowledge_base_path, "r", encoding="utf-8") as f:
     knowledge_base = json.load(f)
 
-# Load Sentence Transformer for embeddings
+
 embedding_model = HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5")
 
-# Load FAISS index
+
 index = faiss.read_index(faiss_index_path)
 
-# Load reranker model (Cross-Encoder)
+
 reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
-# Wrap FAISS with LangChain retriever and reranking
+
 def search_faiss_rerank(query, top_k=20, rerank_top_k=5):
     """Fetches top_k results from FAISS, reranks them, and returns the top rerank_top_k results."""
     
-    # Convert query to embedding
+    
     query_embedding = embedding_model.embed_query(query)
     distances, indices = index.search(np.array([query_embedding]), top_k)
     
-    # Retrieve documents from knowledge base
+    
     retrieved_docs = [Document(page_content=knowledge_base[i]["content"]) for i in indices[0]]
     
-    # Prepare input pairs for reranking (query + each document)
+    
     doc_texts = [doc.page_content for doc in retrieved_docs]
     pairs = [[query, doc] for doc in doc_texts]
     
-    # Compute rerank scores
+    
     scores = reranker.predict(pairs)
     
-    # Sort documents by rerank scores (higher score = more relevant)
+    
     sorted_docs = [doc for _, doc in sorted(zip(scores, retrieved_docs), reverse=True)]
     
-    # Return top rerank_top_k documents
+    
     return sorted_docs[:rerank_top_k]
 
-# LM Studio API details (Local Model)
+
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
 class LMStudioLLM(LLM):
     """Custom LangChain LLM wrapper for local LM Studio"""
 
-    model_name: str = "falcon3-10b-instruct"  # Change if using a different model
+    model_name: str = "falcon3-10b-instruct"  
     max_tokens: int = 1000
     temperature: float = 0.7
     LM_STUDIO_API_URL: str = "http://localhost:1234/v1/completions"
@@ -88,11 +88,11 @@ class LMStudioLLM(LLM):
     def _llm_type(self):
         return "custom_LM_Studio_LLM"
 
-# Define the LangChain RetrievalQA Chain with Reranking
+
 def get_langchain_answer(query):
     retrieved_docs = search_faiss_rerank(query)
 
-    # Prepare context from reranked documents
+    
     context = "\n\n".join([doc.page_content for doc in retrieved_docs])
 
     prompt = f"""You are an expert agricultural assistant with deep knowledge in paddy (rice) farming...  
@@ -134,10 +134,10 @@ Heading: Use appropriate introduction to the answer
     llm = LMStudioLLM()
     return llm(prompt)
 
-# Streamlit UI
+
 st.write("Ask any question related to *paddy farming*, and I will provide an expert response based on available knowledge.")
 
-# User Input
+
 user_query = st.text_input("🌾 Enter your question:", "")
 
 if user_query:

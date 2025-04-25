@@ -22,3 +22,6 @@ scipy==1.15.1
 sounddevice==0.5.1
 deep-translator==1.11.4
 langdetect==1.0.9
+peft
+
+#you have to install ffmpeg either using choclatey or downloading from the original website.

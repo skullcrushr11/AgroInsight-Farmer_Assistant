@@ -4,7 +4,6 @@ import pickle
 import joblib
 import json
 import requests
-import faiss
 from langchain_community.vectorstores import FAISS
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -26,18 +25,18 @@ import sys
 import time
 from datetime import datetime, timedelta
 from collections import Counter
-# Import transformers and PEFT for the intent classifier
+
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from peft import PeftModel
 
-# Translation helper
+
 translator = Translator()
 
-# Set up logging
+
 logging.basicConfig(filename="debug.log", level=logging.DEBUG, filemode="a")
 logger = logging.getLogger(__name__)
 
-# --- Weather Data Functions ---
+
 def get_location():
     """Get latitude/longitude from IP using ip-api.com."""
     try:
@@ -136,18 +135,18 @@ def process_weather_data(daily):
         all_conditions.extend(conditions)
     condition_counter = Counter(all_conditions)
     
-    # Get the most frequent condition
+    
     dominant_condition = max(condition_counter, key=condition_counter.get) if condition_counter else None
     
-    # If dominant condition is Mixed, get the next most frequent valid condition
+    
     if dominant_condition == "Mixed":
-        # Remove Mixed from the counter
+        
         del condition_counter["Mixed"]
-        # Get the next most frequent condition
+        
         if condition_counter:
             dominant_condition = max(condition_counter, key=condition_counter.get)
         else:
-            # If no other conditions, default to Cloudy
+            
             dominant_condition = "Cloudy"
     
     return {
@@ -166,26 +165,26 @@ def get_date_ranges():
     current_year = now.year
     current_month = now.month
     
-    # Previous year, next 3 months (e.g., Apr 2025 -> Apr, May, Jun 2024)
+    
     prev_year = current_year - 1
     start_month_next = now.replace(month=current_month, year=prev_year, day=1)
     end_month_next = start_month_next + timedelta(days=89)
     next_3_start = start_month_next.strftime("%Y-%m-%d")
     next_3_end = end_month_next.strftime("%Y-%m-%d")
     
-    # Previous year, last 3 months (e.g., Apr 2025 -> Feb, Mar, Apr 2024)
+    
     start_month_last = now.replace(month=current_month, year=prev_year, day=1) - timedelta(days=60)
     end_month_last = now.replace(month=current_month, year=prev_year, day=1) + timedelta(days=29)
     last_3_start = start_month_last.strftime("%Y-%m-%d")
     last_3_end = end_month_last.strftime("%Y-%m-%d")
     
-    # Present year, last 4 months (e.g., Apr 2025 -> Dec 2024, Jan, Feb, Mar 2025)
+    
     start_month_current = now.replace(day=1) - timedelta(days=120)
-    end_month_current = now  # Limit to today to avoid future data
+    end_month_current = now  
     current_4_start = start_month_current.strftime("%Y-%m-%d")
     current_4_end = end_month_current.strftime("%Y-%m-%d")
     
-    # Fallback: Previous year equivalent for current period
+    
     start_month_fallback = start_month_current.replace(year=prev_year)
     end_month_fallback = end_month_current.replace(year=prev_year)
     fallback_4_start = start_month_fallback.strftime("%Y-%m-%d")
@@ -198,7 +197,7 @@ def get_date_ranges():
         "fallback_last_4": (fallback_4_start, fallback_4_end)
     }
 
-# --- Whisper Helper Functions ---
+
 def check_ffmpeg():
     """Verify ffmpeg is installed and accessible."""
     try:
@@ -234,7 +233,7 @@ def save_audio(audio, sample_rate):
         logger.error(f"Error saving audio: {str(e)}")
         raise
 
-def transcribe_audio(audio_file, model_name="turbo", language="en"):
+def transcribe_audio(audio_file, model_name="medium", language="en"):
     """Transcribe audio using Whisper with specified language."""
     if not os.path.exists(audio_file):
         logger.error(f"Audio file not found at {audio_file}")
@@ -272,30 +271,30 @@ def transcribe_audio(audio_file, model_name="turbo", language="en"):
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
 
-# --- Load Models ---
+
 @st.cache_resource
 def load_models():
     try:
-        # Load crop recommendation models
+        
         with open("datasets/crop recommendation/crop_recommender_rf_model.pkl", "rb") as f:
             crop_model = pickle.load(f)
         with open("datasets/crop recommendation/label_encoder.pkl", "rb") as f:
             label_encoder_crop = pickle.load(f)
         
-        # Load yield prediction models using joblib
+        
         yield_model = joblib.load("datasets/yield prediction/yield 1/random_forest_yield_model.pkl")
         label_encoder_yield = joblib.load("datasets/yield prediction/yield 1/label_encoders.pkl")
         
-        # Load fertilizer prediction models (fert_1) using joblib
+        
         fertilizer_model_1 = joblib.load("datasets/fertilizer prediction/fert_1/fertilizer_model_1.pkl")
         label_encoder_fert_1 = joblib.load("datasets/fertilizer prediction/fert_1/label_encoders_1.pkl")
         
-        # Load fertilizer prediction models (fert_2) using joblib
+        
         fertilizer_model_2 = joblib.load("datasets/fertilizer prediction/fert_2/fertilizer_model_2.pkl")
         label_encoder_fert_2 = joblib.load("datasets/fertilizer prediction/fert_2/label_encoders_2.pkl")
         remark_model_2 = joblib.load("datasets/fertilizer prediction/fert_2/remark_model_2.pkl")
         
-        # Load disease detection model
+        
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         disease_model = efficientnet_v2_s(weights=None)
         disease_model.classifier[1] = torch.nn.Linear(1280, 18)
@@ -303,7 +302,7 @@ def load_models():
         disease_model.eval().to(device)
         
         logger.info("Models loaded successfully")
-        # Verify types of models and encoders
+        
         logger.debug(f"Type of yield_model: {type(yield_model)}")
         logger.debug(f"Type of label_encoder_yield: {type(label_encoder_yield)}")
         logger.debug(f"Type of fertilizer_model_1: {type(fertilizer_model_1)}")
@@ -330,7 +329,7 @@ def load_models():
  fertilizer_model_1, label_encoder_fert_1, fertilizer_model_2,
  label_encoder_fert_2, remark_model_2, disease_model) = load_models()
 
-# --- Load FAISS Vector Store and Knowledge Base ---
+
 faiss_index_path = "vector_stores/unified_faiss_index"
 
 @st.cache_resource
@@ -347,17 +346,17 @@ def load_vector_store():
 
 faiss_index, embedding_model = load_vector_store()
 
-# --- LM Studio API Details ---
+
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 SMALL_MODEL = "falcon3-10b-instruct"
 LARGE_MODEL = "falcon3-10b-instruct"
 
-# --- Intent Classification Model ---
+
 @st.cache_resource
 def load_intent_classifier():
     """Load the fine-tuned DistilBERT model with LoRA adapters for intent classification"""
     try:
-        # Define intents for the DistilBERT model
+        
         INTENTS = [
             "General Farming Question",
             "Fertilizer Classification", 
@@ -367,15 +366,15 @@ def load_intent_classifier():
             "Unclear"
         ]
         
-        # Get current directory and model path
+        
         intent_dir = os.path.join(os.getcwd(), "intent_classification")
         model_path = os.path.join(intent_dir, "distilbert_lora_intent_classifier_final")
         
-        # Create label mappings
+        
         id2label = {idx: intent for idx, intent in enumerate(INTENTS)}
         label2id = {intent: idx for idx, intent in enumerate(INTENTS)}
         
-        # Load base model and tokenizer
+        
         base_model_name = "distilbert-base-uncased"
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = AutoModelForSequenceClassification.from_pretrained(
@@ -385,13 +384,13 @@ def load_intent_classifier():
             label2id=label2id
         )
         
-        # Load the PEFT/LoRA adapters
+        
         model = PeftModel.from_pretrained(model, model_path)
         
-        # Set model to evaluation mode
+        
         model.eval()
         
-        # Move model to GPU if available
+        
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model = model.to(device)
         
@@ -401,7 +400,7 @@ def load_intent_classifier():
         logger.error(f"Error loading intent classifier: {e}")
         return None, None, None, None
 
-# Function to reload the intent classifier
+
 def reload_intent_classifier():
     """Reload the intent classifier model"""
     global intent_classifier
@@ -428,7 +427,7 @@ def predict_intent(text):
         Return only the category name.
         """, model=SMALL_MODEL)
         
-    # Tokenize input text
+    
     inputs = tokenizer(
         text,
         return_tensors="pt",
@@ -437,29 +436,29 @@ def predict_intent(text):
         truncation=True
     )
     
-    # Move inputs to the device
+    
     inputs = {k: v.to(device) for k, v in inputs.items()}
     
-    # Get prediction
+    
     with torch.no_grad():
         outputs = model(**inputs)
         logits = outputs.logits
         predicted_class_id = torch.argmax(logits, dim=1).item()
     
-    # Map class ID to intent label
+    
     predicted_intent = id2label[predicted_class_id]
     
-    # Get confidence scores
+    
     probabilities = torch.nn.functional.softmax(logits, dim=1)
     confidence = probabilities[0][predicted_class_id].item()
     
     logger.debug(f"Intent prediction: {predicted_intent} with confidence {confidence:.4f}")
     return predicted_intent
 
-# Global variable for the intent classifier
+
 intent_classifier = None
 
-# Load models and initialize classifiers
+
 disease_classes = [
     'cotton_bacterial_blight', 'cotton_curl_virus', 'cotton_fussarium_wilt', 'cotton_healthy',
     'maize_blight', 'maize_common_rust', 'maize_gray_leaf_spot', 'maize_healthy',
@@ -467,12 +466,12 @@ disease_classes = [
     'wheat_brown_rust', 'wheat_fusarium_head_blight', 'wheat_healthy', 'wheat_mildew', 'wheat_septoria'
 ]
 
-# Initialize the intent classifier
+
 intent_classifier = load_intent_classifier()
 
-# --- LangGraph State ---
+
 def create_state():
-    # Get location and weather data
+    
     lat, lon, city, country = get_location()
     weather_data = {}
     
@@ -500,7 +499,7 @@ def create_state():
         }
     }
 
-# --- Helper Functions ---
+
 def search_faiss(query, metadata,top_k=10):
     try:
         results = faiss_index.similarity_search(
@@ -528,12 +527,12 @@ def query_llm(prompt, model=SMALL_MODEL, is_formatting=False):
             raise ValueError("Empty response from LLM")
         text = text.replace("<|assistant|>", "").strip()
         
-        # For formatting prompts, just return the text
+        
         if is_formatting:
             logger.debug(f"LLM ({model}) response (formatting): {text[:100]}...")
             return text
             
-        # For regular prompts, return the text as is
+        
         logger.debug(f"LLM ({model}) response: {text[:100]}...")
         return text
     except Exception as e:
@@ -603,7 +602,7 @@ FINAL ANSWER:
     """
     english_response = query_llm(prompt, model=LARGE_MODEL, is_formatting=True)
     
-    # Get translation in selected language
+    
     if st.session_state.selected_language != "en":
         try:
             translated_response = asyncio.run(translate_response_back(english_response, st.session_state.selected_language))
@@ -627,7 +626,7 @@ def input_node(state: Dict[str, Any]) -> Dict[str, Any]:
     if state["task"] == "fertilizer_classification" and state["fertilizer_choice"] is None:
         if user_message.strip() in ["1", "2"]:
             state["fertilizer_choice"] = user_message.strip()
-            state["awaiting_input"] = True  # Continue awaiting input for next step
+            state["awaiting_input"] = True  
             state["last_user_message"] = None
             logger.debug(f"Fertilizer choice set to: {state['fertilizer_choice']}")
             return state
@@ -652,18 +651,18 @@ def input_node(state: Dict[str, Any]) -> Dict[str, Any]:
         logger.debug(f"Input parsing failed: {e}")
         return state
 
-# --- LangGraph Nodes ---
+
 def intent_classifier_node(state: Dict[str, Any]) -> Dict[str, Any]:
     logger.debug("Entering intent_classifier_node")
     
-    # Reset processed flag for new intents
+    
     state["processed"] = False
     
     if not state["messages"]:
         state["messages"] = [{"role": "assistant", "content": "Hello! I can help with general questions, crop recommendations, yield predictions, fertilizer classification, or plant disease detection from images. What would you like to do?"}]
         return state
 
-    # Skip intent classification if we're awaiting input or task is ongoing
+    
     if state["awaiting_input"] or (state["task"] and not state["processed"]):
         logger.debug("Skipping intent classification - task in progress or awaiting input")
         return state
@@ -671,7 +670,7 @@ def intent_classifier_node(state: Dict[str, Any]) -> Dict[str, Any]:
     user_message = state["last_user_message"] if state["last_user_message"] else state["messages"][-1]["content"]
     logger.debug(f"User message for intent classification: {user_message}")
 
-    # Use the fine-tuned DistilBERT model for intent classification
+    
     intent = predict_intent(user_message)
     logger.debug(f"Detected intent: {intent}")
 
@@ -704,18 +703,18 @@ def crop_recommendation_node(state: Dict[str, Any]) -> Dict[str, Any]:
         return state
         
     if not state["user_input"]:
-        # Get weather data if available
+        
         weather_info = ""
         if state["weather_data"] and "prev_next_3" in state["weather_data"] and state["weather_data"]["prev_next_3"]:
             weather = state["weather_data"]["prev_next_3"]
             weather_info = f"\nI have fetched the following weather data for your location:\n- Temperature: {weather['avg_temperature_celsius']}°C\n- Humidity: {weather['avg_relative_humidity_percent']}%\n- Rainfall: {weather['highest_monthly_rainfall_mm']} mm\n\n"
         
-        state["messages"].append({"role": "assistant", "content": f"{weather_info}To recommend the best crop, please provide:\n- Nitrogen (N) in ppm\n- Phosphorus (P) in ppm\n- Potassium (K) in ppm\n- pH\nExample: 'N=90, P=42, K=43, ph=6.5'"})
+        state["messages"].append({"role": "assistant", "content": f"{weather_info}To recommend the best crop, please provide your approximate soil condions:\n- Nitrogen (N) in ppm\n- Phosphorus (P) in ppm\n- Potassium (K) in ppm\n- pH\nExample: 'N=90, P=42, K=43, ph=6.5'"})
         state["awaiting_input"] = True
         return state
         
     try:
-        # Create DataFrame with exact column names
+        
         input_df = pd.DataFrame([{
             "N(ppm)": state["user_input"]["N(ppm)"],
             "P(ppm)": state["user_input"]["P(ppm)"],
@@ -730,7 +729,7 @@ def crop_recommendation_node(state: Dict[str, Any]) -> Dict[str, Any]:
         crop = label_encoder_crop.inverse_transform(pred)[0]
         state["prediction"] = crop
         
-        # Get response without translation
+        
         response = query_llm(f"""Format this prediction into a conversational response:
         The recommended crop based on the provided conditions is {crop}.
         Instructions:
@@ -761,29 +760,29 @@ def fertilizer_classification_node(state: Dict[str, Any]) -> Dict[str, Any]:
         return state
         
     if state["fertilizer_choice"] is None:
-        state["messages"].append({"role": "assistant", "content": "Please choose an option for fertilizer classification:\n1. Based on soil color\n2. Based on soil type\nEnter 1 or 2."})
+        state["messages"].append({"role": "assistant", "content": "Please choose an option for fertilizer classification:\n1. Based on soil color\n2. Based on soil type \n\nEnter 1 or 2."})
         state["awaiting_input"] = True
         return state
     
     if state["fertilizer_choice"] == "1" and not state["user_input"]:
-        # Get weather data if available
+        
         weather_info = ""
         if state["weather_data"] and "prev_next_3" in state["weather_data"] and state["weather_data"]["prev_next_3"]:
             weather = state["weather_data"]["prev_next_3"]
             weather_info = f"\nI have fetched the following weather data for your location:\n- Temperature: {weather['avg_temperature_celsius']}°C\n\n"
         
-        state["messages"].append({"role": "assistant", "content": f"{weather_info}Please provide:\n- Soil Color\n- Nitrogen (ppm)\n- Phosphorus (ppm)\n- Potassium (ppm)\n- pH\n- Crop\nExample: 'Soil_color=Red, Nitrogen=90, Phosphorous=42, Potassium=43, pH=6.5, Crop=Rice'"})
+        state["messages"].append({"role": "assistant", "content": f"{weather_info} For a fertilizer recommendation, Please provide the following soil conditions based on your farm:\n- Soil Color\n- Nitrogen (ppm)\n- Phosphorus (ppm)\n- Potassium (ppm)\n- pH\n- Crop\nExample: 'Soil_color=Dark Brown, Nitrogen=120, Phosphorous=80, Potassium=60, pH=6.5, Crop=Wheat'"})
         state["awaiting_input"] = True
         return state
         
     if state["fertilizer_choice"] == "2" and not state["user_input"]:
-        # Get weather data if available
+        
         weather_info = ""
         if state["weather_data"] and "prev_next_3" in state["weather_data"] and state["weather_data"]["prev_next_3"]:
             weather = state["weather_data"]["prev_next_3"]
             weather_info = f"\nI have fetched the following weather data for your location:\n- Temperature: {weather['avg_temperature_celsius']}°C\n- Moisture: {weather['moisture']}\n- Rainfall: {weather['highest_monthly_rainfall_mm']} mm\n\n"
         
-        state["messages"].append({"role": "assistant", "content": f"{weather_info}Please provide:\n- pH\n- Nitrogen (ppm)\n- Phosphorus (ppm)\n- Potassium (ppm)\n- Carbon (%)\n- Soil Type (must be one of: Loamy Soil, Peaty Soil, Acidic Soil, Neutral Soil, Alkaline Soil)\n- Crop\nExample: 'ph=6.5, N=90, P=42, K=43, carbon=1.2, soil=Loamy Soil, crop=rice'."})
+        state["messages"].append({"role": "assistant", "content": f"{weather_info}For a fertilizer recommendation, Please provide the following soil conditions based on your farm:\n- pH\n- Nitrogen (ppm)\n- Phosphorus (ppm)\n- Potassium (ppm)\n- Carbon (%)\n- Soil Type (must be one of: Loamy Soil, Peaty Soil, Acidic Soil, Neutral Soil, Alkaline Soil)\n- Crop\nExample: 'ph=6.5, N=90, P=42, K=43, carbon=1.2, soil=Loamy Soil, crop=rice'."})
         state["awaiting_input"] = True
         return state
 
@@ -791,15 +790,15 @@ def fertilizer_classification_node(state: Dict[str, Any]) -> Dict[str, Any]:
         input_dict = state["user_input"]
         logger.debug(f"Input dictionary: {input_dict}")
         
-        # Create DataFrame with consistent column names
+        
         input_df = pd.DataFrame([input_dict])
         
         if state["fertilizer_choice"] == "1":
-            # Handle first fertilizer model (based on soil color)
+            
             if not isinstance(label_encoder_fert_1, dict):
                 raise TypeError("label_encoder_fert_1 is not a dictionary. Please check the saved model files.")
             
-            # Encode categorical variables
+            
             categorical_cols = ["Soil_color", "Crop"]
             for col in categorical_cols:
                 if col in input_df.columns and col in label_encoder_fert_1:
@@ -807,14 +806,14 @@ def fertilizer_classification_node(state: Dict[str, Any]) -> Dict[str, Any]:
             
             logger.debug(f"Preprocessed input DataFrame: {input_df}")
             
-            # Ensure fertilizer_model_1 is a RandomForestClassifier
+            
             if not hasattr(fertilizer_model_1, 'predict'):
                 raise TypeError("fertilizer_model_1 is not a valid model. Please check the saved model files.")
             
-            # Predict using fertilizer_model_1
+            
             pred = fertilizer_model_1.predict(input_df)
             
-            # Decode prediction
+            
             if "Fertilizer" in label_encoder_fert_1:
                 fertilizer = label_encoder_fert_1["Fertilizer"].inverse_transform(pred)[0]
             else:
@@ -826,12 +825,12 @@ def fertilizer_classification_node(state: Dict[str, Any]) -> Dict[str, Any]:
             - Keep it friendly and concise.
             - Add a brief encouragement.""", model=SMALL_MODEL, is_formatting=True)
             
-        else:  # state["fertilizer_choice"] == "2"
-            # Handle second fertilizer model (based on soil type)
+        else:  
+            
             if not isinstance(label_encoder_fert_2, dict):
                 raise TypeError("label_encoder_fert_2 is not a dictionary. Please check the saved model files.")
             
-            # Encode categorical variables
+            
             categorical_cols = ["Soil", "Crop"]
             for col in categorical_cols:
                 if col in input_df.columns and col in label_encoder_fert_2:
@@ -839,15 +838,15 @@ def fertilizer_classification_node(state: Dict[str, Any]) -> Dict[str, Any]:
             
             logger.debug(f"Preprocessed input DataFrame: {input_df}")
             
-            # Ensure both models are valid
+            
             if not hasattr(fertilizer_model_2, 'predict') or not hasattr(remark_model_2, 'predict'):
                 raise TypeError("One or both of the fertilizer models are not valid. Please check the saved model files.")
             
-            # Predict both fertilizer and remark
+            
             fertilizer_pred = fertilizer_model_2.predict(input_df)
             remark_pred = remark_model_2.predict(input_df)
             
-            # Decode predictions
+            
             if "Fertilizer" in label_encoder_fert_2 and "Remark" in label_encoder_fert_2:
                 fertilizer = label_encoder_fert_2["Fertilizer"].inverse_transform(fertilizer_pred)[0]
                 remark = label_encoder_fert_2["Remark"].inverse_transform(remark_pred)[0]
@@ -891,7 +890,7 @@ def image_disease_detection_node(state: Dict[str, Any]) -> Dict[str, Any]:
         return state
         
     try:
-        img = state["user_input"]  # Expecting a PIL Image from Streamlit file uploader
+        img = state["user_input"]  
         img_tensor = process_image(img)
         with torch.no_grad():
             outputs = disease_model(img_tensor)
@@ -927,13 +926,13 @@ def yield_prediction_node(state: Dict[str, Any]) -> Dict[str, Any]:
         return state
         
     if not state["user_input"]:
-        # Get weather data if available
+        
         weather_info = ""
         if state["weather_data"] and "current_last_4" in state["weather_data"] and state["weather_data"]["current_last_4"]:
             weather = state["weather_data"]["current_last_4"]
             weather_info = f"\nI have fetched the following weather data for your location:\n- Temperature: {weather['avg_temperature_celsius']}°C\n- Rainfall: {weather['total_rainfall_mm']} mm\n- Weather Condition: {weather['dominant_condition']}\n\n"
         
-        state["messages"].append({"role": "assistant", "content": f"{weather_info}To predict yield, please provide:\n- Soil Type\n- Crop\n- Fertilizer Used (1 for Yes, 0 for No)\n- Irrigation Used (1 for Yes, 0 for No)\n- Days to Harvest\nExample: 'Soil_Type=Clay, Crop=Cotton, Fertilizer_Used=1, Irrigation_Used=1, Days_to_Harvest=120'"})
+        state["messages"].append({"role": "assistant", "content": f"{weather_info}To predict yield, please provide the following information:\n- Soil Type\n- Crop\n- Fertilizer Used (1 for Yes, 0 for No)\n- Irrigation Used (1 for Yes, 0 for No)\n- Days to Harvest\nExample: 'Soil_Type=Clay, Crop=Cotton, Fertilizer_Used=1, Irrigation_Used=1, Days_to_Harvest=120'"})
         state["awaiting_input"] = True
         return state
         
@@ -941,10 +940,10 @@ def yield_prediction_node(state: Dict[str, Any]) -> Dict[str, Any]:
         input_dict = state["user_input"]
         logger.debug(f"Input dictionary: {input_dict}")
         
-        # Create DataFrame with consistent column names
+        
         input_df = pd.DataFrame([input_dict])
         
-        # Encode categorical variables
+        
         categorical_cols = ["Soil_Type", "Crop", "Weather_Condition"]
         for col in categorical_cols:
             if col in input_df.columns and col in label_encoder_yield:
@@ -952,11 +951,11 @@ def yield_prediction_node(state: Dict[str, Any]) -> Dict[str, Any]:
         
         logger.debug(f"Preprocessed input DataFrame: {input_df}")
         
-        # Ensure yield_model is valid
+        
         if not hasattr(yield_model, 'predict'):
             raise TypeError("yield_model is not a valid model. Please check the saved model files.")
         
-        # Make prediction
+        
         pred = yield_model.predict(input_df)[0]
         state["prediction"] = f"{pred:.2f}"
         
@@ -985,7 +984,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
     logger.debug(f"Parsing input for task: {task}, fertilizer choice: {fertilizer_choice}")
     logger.debug(f"Input message: {message}")
     
-    # Define valid values for fertilizer classification option 2
+    
     valid_soil_types = ['Loamy Soil', 'Peaty Soil', 'Acidic Soil', 'Neutral Soil', 'Alkaline Soil']
     valid_crops = ['rice', 'wheat', 'Mung Bean', 'Tea', 'millet', 'maize', 'Lentil', 'Jute', 
                   'Coffee', 'Cotton', 'Ground Nut', 'Peas', 'Rubber', 'Sugarcane', 'Tobacco',
@@ -1005,7 +1004,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
             "rainfall": "rainfall(in mm)"
         }
         
-        # Use weather data if available
+        
         if weather_data and "prev_next_3" in weather_data and weather_data["prev_next_3"]:
             weather = weather_data["prev_next_3"]
             input_dict = {
@@ -1017,7 +1016,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
             input_dict = {}
             
     elif task == "yield_prediction":
-        # Define keys in exact order as in dataset
+        
         keys = ["Soil_Type", "Crop", "Rainfall_mm", "Temperature_Celsius", "Fertilizer_Used", "Irrigation_Used", "Weather_Condition", "Days_to_Harvest"]
         key_aliases = {
             "soil": "Soil_Type", "soil_type": "Soil_Type",
@@ -1030,7 +1029,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
             "days": "Days_to_Harvest", "days_to_harvest": "Days_to_Harvest"
         }
         
-        # Use weather data if available
+        
         if weather_data and "current_last_4" in weather_data and weather_data["current_last_4"]:
             weather = weather_data["current_last_4"]
             input_dict = {
@@ -1043,7 +1042,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
             
     elif task == "fertilizer_classification":
         if fertilizer_choice == "1":
-            # Define keys in exact order as in dataset
+            
             keys = ["Soil_color", "Nitrogen", "Phosphorus", "Potassium", "pH", "Temperature", "Crop"]
             key_aliases = {
                 "soil_color": "Soil_color", "soil": "Soil_color", "color": "Soil_color",
@@ -1055,7 +1054,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
                 "crop": "Crop"
             }
             
-            # Use weather data if available
+            
             if weather_data and "prev_next_3" in weather_data and weather_data["prev_next_3"]:
                 weather = weather_data["prev_next_3"]
                 input_dict = {
@@ -1079,7 +1078,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
                 "crop": "Crop"
             }
             
-            # Use weather data if available
+            
             if weather_data and "prev_next_3" in weather_data and weather_data["prev_next_3"]:
                 weather = weather_data["prev_next_3"]
                 input_dict = {
@@ -1114,18 +1113,18 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
             if matched_key:
                 logger.debug(f"Matched key: {matched_key}")
                 try:
-                    # Handle categorical variables
+                    
                     if task == "yield_prediction" and matched_key in ["Soil_Type", "Crop", "Weather_Condition"]:
                         input_dict[matched_key] = value
                         logger.debug(f"Added categorical value: {matched_key}={value}")
                     elif task == "fertilizer_classification" and fertilizer_choice == "2":
                         if matched_key == "Soil":
-                            # Validate soil type
+                            
                             if value not in valid_soil_types:
                                 raise ValueError(f"Invalid soil type. Must be one of: {', '.join(valid_soil_types)}")
                             input_dict[matched_key] = value
                         elif matched_key == "Crop":
-                            # Validate crop
+                            
                             if value not in valid_crops:
                                 raise ValueError(f"Invalid crop. Must be one of: {', '.join(valid_crops)}")
                             input_dict[matched_key] = value
@@ -1151,7 +1150,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
         logger.debug(f"Available keys in input_dict: {list(input_dict.keys())}")
         raise ValueError(f"Missing inputs: {', '.join(missing_keys)}")
     
-    # For yield prediction, ensure the order matches the dataset
+    
     if task == "yield_prediction":
         ordered_dict = {}
         for key in keys:
@@ -1159,7 +1158,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
                 ordered_dict[key] = input_dict[key]
         return ordered_dict
     
-    # For fertilizer classification option 1, ensure the order matches the dataset
+    
     if task == "fertilizer_classification" and fertilizer_choice == "1":
         ordered_dict = {}
         for key in keys:
@@ -1167,7 +1166,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
                 ordered_dict[key] = input_dict[key]
         return ordered_dict
 
-    # For fertilizer classification option 2, ensure the order matches the dataset
+    
     if task == "fertilizer_classification" and fertilizer_choice == "2":
         ordered_dict = {}
         for key in keys:
@@ -1177,7 +1176,7 @@ def parse_user_input(message: str, task: str, fertilizer_choice=None, weather_da
     
     return input_dict
 
-# --- Define LangGraph Workflow ---
+
 workflow = StateGraph(dict)
 workflow.add_node("intent_classifier", intent_classifier_node)
 workflow.add_node("input", input_node)
@@ -1212,7 +1211,7 @@ workflow.add_conditional_edges(
     lambda state: (
         state["task"] if state["task"] and (state["user_input"] or state["fertilizer_choice"]) and not state["processed"] else 
         END if state["processed"] else 
-        "input"  # Stay in input if still awaiting
+        "input"  
     ),
     {
         "general_farming_question": "general_qa",
@@ -1234,7 +1233,7 @@ workflow.add_edge("yield_prediction", END)
 app = workflow.compile()
 
 
-#translation functons
+
 async def detect_and_translate_to_english(user_input):
     original_lang = (await translator.detect(user_input)).lang
     if original_lang != "en":
@@ -1252,16 +1251,16 @@ async def translate_response_back(response, target_lang):
     print("in def trans:", translated)
     return translated.text
 
-# --- Streamlit Chat UI ---
-st.title("🌾 Enhanced Farming Chatbot")
 
-# Test intent classifier and show status
+st.title("AgroInsight - Farming Assistant")
+
+
 if "intent_classifier_tested" not in st.session_state:
     st.session_state.intent_classifier_tested = True
     with st.sidebar:
         st.subheader("Intent Classifier Status")
         try:
-            # Test the intent classifier with a simple query
+            
             test_query = "Tell me about paddy farming"
             intent = predict_intent(test_query)
             if intent in ["General Farming Question", "Crop Recommendation", "Yield Prediction", 
@@ -1274,11 +1273,11 @@ if "intent_classifier_tested" not in st.session_state:
             st.info("Using fallback LLM for intent classification")
             logger.error(f"Intent classifier test failed: {e}")
 
-# Language selection
+
 if "selected_language" not in st.session_state:
     st.session_state.selected_language = "en"
 
-# Language selection sidebar
+
 with st.sidebar:
     st.header("Language Settings")
     language_options = {
@@ -1299,10 +1298,10 @@ with st.sidebar:
     )
     st.session_state.selected_language = language_options[selected_language_name]
     
-    # Add a section for model management
+    
     st.header("Model Management")
     
-    # Clear intent classifier cache
+    
     if st.button("Reload Intent Classifier"):
         try:
             if reload_intent_classifier():
@@ -1312,21 +1311,21 @@ with st.sidebar:
         except Exception as e:
             st.error(f"Error reloading intent classifier: {str(e)}")
 
-# Clear model cache
+
 if st.button("Clear Model Cache"):
     st.cache_resource.clear()
     st.success("Model cache cleared! Please wait for models to reload on the next action.")
 
-# Initialize session state
+
 if "chat_state" not in st.session_state:
     st.session_state.chat_state = create_state()
 
-# Display chat history
+
 for msg in st.session_state.chat_state["messages"]:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
 
-# --- 🎤 Speech-to-Text Input Button ---
+
 if st.button("🎤 Speak your query"):
     if not check_ffmpeg():
         st.error("Please install ffmpeg to use speech input.")
@@ -1343,7 +1342,7 @@ if st.button("🎤 Speak your query"):
             else:
                 st.error("Failed to transcribe audio. Please try again.")
             
-            # Clean up
+            
             if os.path.exists(audio_file):
                 os.remove(audio_file)
         except Exception as e:
@@ -1352,12 +1351,16 @@ if st.button("🎤 Speak your query"):
 prompt = None
 if "spoken_input" in st.session_state:
     prompt = st.session_state.spoken_input
-    del st.session_state.spoken_input
+    st.session_state.spoken_input = None
     print("speech prompt=", prompt)
-else:
-    prompt = st.chat_input("Ask me anything about farming!")
 
-# --- Image Upload Handling for Plant Disease Detection ---
+
+text_prompt = st.chat_input("Ask me anything about farming!")
+
+
+prompt_to_process = prompt or text_prompt
+
+
 if st.session_state.chat_state["task"] == "image_plant_disease_detection":
     st.info("Please upload an image of your plant to detect any diseases.")
     uploaded_file = st.file_uploader("Upload Plant Image", type=["jpg", "jpeg", "png"], key="image_uploader")
@@ -1386,22 +1389,22 @@ if st.session_state.chat_state["task"] == "image_plant_disease_detection":
                     st.write(f"Sorry, something went wrong: {str(e)}")
         st.rerun()
 
-# --- Handle Prompt Input ---
-elif prompt:
-    original_input = prompt
 
-    # Modify the process_prompt function to hide translations for crop recommendation inputs
-    async def process_prompt(prompt):
-        # Step 1: Detect language and translate to English
-        translated_prompt, user_lang = await detect_and_translate_to_english(prompt)
+elif prompt_to_process:
+    original_input = prompt_to_process
+
+    
+    async def process_prompt(prompt_arg):
+        
+        translated_prompt, user_lang = await detect_and_translate_to_english(prompt_arg)
 
         with st.chat_message("user"):
             st.write(original_input)
-            # Only show translation for non-input messages and non-English languages
+            
             if user_lang != "en" and not any(x in translated_prompt.lower() for x in ["n=", "p=", "k=", "ph=", "temperature=", "humidity=", "rainfall="]):
                 st.markdown("*Translated to English:* " + translated_prompt)
 
-        # Step 2: Prepare current state
+        
         current_state = st.session_state.chat_state.copy()
         current_state["messages"].append({"role": "user", "content": translated_prompt})
         current_state["last_user_message"] = translated_prompt
@@ -1415,34 +1418,34 @@ elif prompt:
                     if msg["role"] == "assistant":
                         assistant_reply = msg["content"]
 
-                        # Skip translation for crop recommendation responses
+                        
                         if current_state["task"] == "crop_recommendation":
                             with st.chat_message("assistant"):
                                 st.write(assistant_reply)
                         else:
-                            if user_lang != "en":
-                                try:
-                                    translated_reply = await translate_response_back(assistant_reply, user_lang)
-                                    with st.chat_message("assistant"):
-                                        st.write(translated_reply)
-                                        st.markdown("*Original English response:* " + assistant_reply)
-                                except Exception as e:
-                                    logger.error(f"Translation error: {e}")
-                                    with st.chat_message("assistant"):
-                                        st.write(assistant_reply)
-                            else:
-                                with st.chat_message("assistant"):
-                                    st.write(assistant_reply)
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            with st.chat_message("assistant"):
+                                st.write(assistant_reply)
 
             except Exception as e:
                 logger.error(f"Workflow invocation error: {e}")
                 with st.chat_message("assistant"):
                     st.write(f"Sorry, something went wrong: {str(e)}")
 
-    # Run the async flow
-    asyncio.run(process_prompt(prompt))
+    
+    asyncio.run(process_prompt(prompt_to_process))
 
-# Debugging logs toggle
+
 if st.checkbox("Show debug logs"):
     if os.path.exists("debug.log"):
         with open("debug.log", "r") as f:

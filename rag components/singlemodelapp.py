@@ -5,33 +5,33 @@ import json
 import requests
 from sentence_transformers import SentenceTransformer
 
-# Load FAISS vector database
+
 faiss_index_path = "paddy_vector_store_bge.index"
 knowledge_base_path = "paddy_knowledge_base.json"
 
 st.title("🌾 Paddy Farming AI Assistant")
 
-# Load knowledge base
+
 with open(knowledge_base_path, "r", encoding="utf-8") as f:
     knowledge_base = json.load(f)
 
-# Load FAISS index
+
 index = faiss.read_index(faiss_index_path)
 
-# Load Sentence Transformer for embedding queries
+
 model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 
-# LM Studio API details
+
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
-# Function to retrieve relevant context from FAISS
+
 def search_faiss(query, top_k=10):
     query_embedding = model.encode([query], convert_to_numpy=True)
     distances, indices = index.search(query_embedding, top_k)
     results = [knowledge_base[i]["content"] for i in indices[0]]
     return results
 
-# Function to query the Large LLM (Mistral 7B) for answering questions
+
 def ask_large_llm(query):
     """
     Generates an answer using Mistral 7B.
@@ -77,7 +77,7 @@ Heading: Use appropriate introduction to the answer
     response = requests.post(
         LM_STUDIO_API_URL,
         json={"model": "falcon3-10b-instruct", "prompt": prompt, "max_tokens": 300, "stream": True},
-        stream=True,  # Enables streaming response
+        stream=True,  
     )
 
     full_response = ""
@@ -86,33 +86,33 @@ Heading: Use appropriate introduction to the answer
             try:
                 decoded_line = line.decode("utf-8").replace("data: ", "").strip()
                 if decoded_line == "[DONE]":
-                    break  # End of streaming
+                    break  
 
-                parsed_json = json.loads(decoded_line)  # Convert to dictionary
-                text_chunk = parsed_json["choices"][0]["text"]  # Extract text part
+                parsed_json = json.loads(decoded_line)  
+                text_chunk = parsed_json["choices"][0]["text"]  
                 full_response += text_chunk
-                yield text_chunk  # Stream as it's being generated
+                yield text_chunk  
             except Exception as e:
                 print("Error parsing streamed response:", e)
     
-    # Commenting out the part that formats with the smaller LLM
-    # formatted_response = format_with_small_llm(full_response)
-    # yield f"\n\n---\n\n{formatted_response}"  # Append formatted version below
+    
+    
+    
 
-# Streamlit UI
+
 st.write("Ask any question related to *paddy farming*, and I will provide an expert response based on available knowledge.")
 
-# User Input
+
 user_query = st.text_input("🌾 Enter your question:", "")
 
 if user_query:
     with st.spinner("Retrieving answer..."):
-        response_generator = ask_large_llm(user_query)  # Get streaming response
+        response_generator = ask_large_llm(user_query)  
     
         st.subheader("📝 Answer:")
-        answer_container = st.empty()  # Create an empty container for streaming
+        answer_container = st.empty()  
 
         full_response = ""
         for chunk in response_generator:
-            full_response += chunk  # Append new text
-            answer_container.write(full_response)  # Update UI in real time
+            full_response += chunk  
+            answer_container.write(full_response)  

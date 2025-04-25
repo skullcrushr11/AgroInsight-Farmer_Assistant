@@ -1,9 +1,9 @@
 import requests
 
-# LM Studio API URL
+
 LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
-# Function to ask LLM
+
 def ask_llm(query):
     retrieved_context = search_faiss(query)
 
@@ -23,7 +23,7 @@ def ask_llm(query):
 
     return response.json()["choices"][0]["text"]
 
-# Example Query
+
 query = "What is the best water management practice for paddy?"
 response = ask_llm(query)
 print("LLM Response:", response)

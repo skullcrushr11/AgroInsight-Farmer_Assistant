@@ -3,7 +3,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from peft import PeftModel
 
-# Define intents for the DistilBERT model
+
 INTENTS = [
     "General Farming Question",
     "Fertilizer Classification", 
@@ -15,17 +15,17 @@ INTENTS = [
 
 def load_model():
     """Load the fine-tuned DistilBERT model with LoRA adapters for intent classification"""
-    # Get current directory
+    
     current_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Define paths
+    
     model_path = os.path.join(current_dir, "distilbert_lora_intent_classifier_final")
     
-    # Create label mappings
+    
     id2label = {idx: intent for idx, intent in enumerate(INTENTS)}
     label2id = {intent: idx for idx, intent in enumerate(INTENTS)}
     
-    # Load base model and tokenizer
+    
     base_model_name = "distilbert-base-uncased"
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForSequenceClassification.from_pretrained(
@@ -35,13 +35,13 @@ def load_model():
         label2id=label2id
     )
     
-    # Load the PEFT/LoRA adapters
+    
     model = PeftModel.from_pretrained(model, model_path)
     
-    # Set model to evaluation mode
+    
     model.eval()
     
-    # Move model to GPU if available
+    
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
     
@@ -49,7 +49,7 @@ def load_model():
 
 def predict_intent(text, model, tokenizer, id2label, device):
     """Predict the intent of a given text"""
-    # Tokenize input text
+    
     inputs = tokenizer(
         text,
         return_tensors="pt",
@@ -58,29 +58,29 @@ def predict_intent(text, model, tokenizer, id2label, device):
         truncation=True
     )
     
-    # Move inputs to the device
+    
     inputs = {k: v.to(device) for k, v in inputs.items()}
     
-    # Get prediction
+    
     with torch.no_grad():
         outputs = model(**inputs)
         logits = outputs.logits
         predicted_class_id = torch.argmax(logits, dim=1).item()
     
-    # Map class ID to intent label
+    
     predicted_intent = id2label[predicted_class_id]
     
-    # Get confidence scores (softmax of logits)
+    
     probabilities = torch.nn.functional.softmax(logits, dim=1)
     confidence = probabilities[0][predicted_class_id].item()
     
     return predicted_intent, confidence
 
 def main():
-    # Load model, tokenizer, and mappings
+    
     model, tokenizer, id2label, device = load_model()
     
-    # Hardcoded test prompts (same as in DistilLora.py plus some additional ones)
+    
     test_prompts = [
         "Tell me about paddy farming",
         "What fertilizer for wheat?",
@@ -97,7 +97,7 @@ def main():
         "How do I know if my soil is healthy?"
     ]
     
-    # Process each prompt
+    
     print("=" * 80)
     print("DISTILBERT LORA INTENT CLASSIFICATION RESULTS")
     print("=" * 80)
@@ -108,7 +108,7 @@ def main():
         print(f"Predicted Intent: {intent}")
         print(f"Confidence: {confidence:.4f} ({confidence*100:.2f}%)")
     
-    # Allow interactive testing
+    
     print("\n" + "=" * 80)
     print("INTERACTIVE TESTING (Type 'quit' to exit)")
     print("=" * 80)
